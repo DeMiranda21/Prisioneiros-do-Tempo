@@ -1,4 +1,4 @@
-# 01 - Ideias
+# Ideias
 
 Este documento reúne ideias, mecânicas experimentais e sugestões ainda não incorporadas oficialmente ao jogo.
 
@@ -21,12 +21,13 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - Moeda para baú a ser capturado (ganha um ponto?)
 - Zona Inicial dividida em vários locais do mapa/compartilhada.
 
-# 02 - BALANCEAMENTO
+# BALANCEAMENTO
 - Qual foi a primeira peça eliminada?
 - Qual foi a última peça viva?
 - Qual habilidade mais decidiu a partida?
 - Qual peça foi menos ativada?
 
-# 03 - JOGO FÍSICO
+# JOGO FÍSICO
 - Tabuleiro de papel? Alguma forma de tabuleiro modular, o mapa é muito importante para a diversão. Tambem para possibilitar partidas com mais de um jogador.
 - Peças coloridas para representarem os obstáculos? (cinza = pedras, muros; verdes = árvores), cuidado para não complicar mais.
+
