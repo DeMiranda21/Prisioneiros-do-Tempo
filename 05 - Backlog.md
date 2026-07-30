@@ -14,7 +14,7 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ### Modo de Jogo 
 - Modo de defender zona; - Somar com a introdução de personagem que empurre.
-- Modo de recuperar item;
+- Modo de recuperar item; -  Moeda para baú a ser capturado (ganha um ponto?)
 - Modo Cooperativo;
 - Modo de partida com mais de 2 jogadores;
 - Modo de Ondas - Um mestre de jogo, roda o dado para saber qual classe vai controlar, começa com um e cada rodada tem uma peça a mais. O jogador pode fazer qualquer combinação de figuras. Os ataques de 1 por partida resetam a cada duas partidas (uma com, uma sem); O mestre de jogo não tem os ataques de 1 por partida.
@@ -22,8 +22,8 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 ### Mapas
 - Usei dama para obstáculos.
 - Usar portais, entra em um sai no outro;
-- Moeda para baú a ser capturado (ganha um ponto?)
 - Zona Inicial dividida em vários locais do mapa/compartilhada.
+- Mecânicas de portais, moedas, etc não devem ser fixas dos mapas, devem ser modulares. Descobrir uma forma de balancear a implementação; Qual jogador decide onde vai ser?
 
 ### Componentes
 - Peças impressas em 3D;
