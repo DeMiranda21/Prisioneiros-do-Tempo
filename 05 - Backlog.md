@@ -5,8 +5,10 @@
 Este documento reúne ideias, mecânicas experimentais e sugestões ainda não incorporadas oficialmente ao jogo. Ainda, registra testes e ideias aprovadas ou não.
 
 ### Classes
-- Personagem que empurra aliado.
-- Personagem que troca de lugar com outro.
+- Habilidade que empurra aliado.
+- Habilidade que troca de lugar com outro.
+- Habilidade de teletransporte.
+- Habilidade de cura através de doação de hp.
 - Verificar forma prática de fazer o balanceamento de classes usando agentes AI.
 - Criar no mínimo dois sets completos para que o jogador possa fazer sua própria combinação (Tanque, DPS, Mago, Suporte e Arqueiro).
 
