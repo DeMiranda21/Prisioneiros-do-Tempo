@@ -31,7 +31,6 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ## Em teste
 
-
 ## OBSERVAÇÕES DE PLAYTEST
 
 ###BALANCEAMENTO
@@ -42,4 +41,61 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - Problemas encontrados:
 - Ideias surgidas:
 
+---
 
+# Roadmap - Versão 1.0
+
+## 0. Identidade do Jogo
+- [ ] Manter regras simples.
+- [ ] Garantir que o jogo seja divertido.
+- [ ] Garantir alta replayabilidade.
+
+## 1. Personagens
+- [ ] Criar 10 personagens jogáveis.
+- [ ] Possuir 2 personagens para cada classe (Tanque, DPS, Atirador, Mago e Suporte).
+- [ ] Garantir identidade própria para cada personagem.
+- [ ] Balancear todos os personagens.
+
+## 2. Mapas
+- [ ] Criar 6 mapas oficiais.
+- [ ] Balancear todos os mapas.
+- [ ] Implementar seleção aleatória por dado.
+
+## 3. Mecânicas Variáveis
+### Definição
+- [ ] Definir as mecânicas especiais da partida.
+- [ ] Definir quais elementos pertencem aos mapas.
+- [ ] Definir quais elementos serão sorteados antes da partida.
+
+### Mecânicas em estudo
+- [ ] Portais.
+- [ ] Zona de Captura.
+- [ ] Zona Inicial Mista.
+
+### Implementação
+- [ ] Balancear todas as mecânicas.
+- [ ] Implementar seleção aleatória por dado.
+
+## 4. Componentes
+- [ ] Finalizar cartas de personagens.
+- [ ] Finalizar cartas de regras.
+- [ ] Finalizar cartas das mecânicas especiais.
+- [ ] Finalizar tabuleiro.
+- [ ] Finalizar peças.
+- [ ] Finalizar marcadores.
+- [ ] Preparar arquivos para impressão.
+
+## 5. Validação
+- [ ] Realizar partidas de teste.
+- [ ] Corrigir problemas encontrados.
+- [ ] Validar o balanceamento geral.
+- [ ] Validar a diversão.
+- [ ] Validar a replayabilidade.
+
+## Critérios para conclusão da Versão 1.0
+- [ ] O jogo pode ser jogado do início ao fim sem regras provisórias.
+- [ ] Todos os personagens estão finalizados.
+- [ ] Todos os mapas estão finalizados.
+- [ ] Todas as mecânicas especiais estão finalizadas.
+- [ ] Todos os componentes estão prontos para impressão.
+- [ ] O jogo foi validado por partidas de teste.
