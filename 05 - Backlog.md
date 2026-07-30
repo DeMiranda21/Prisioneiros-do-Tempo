@@ -33,7 +33,7 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ## OBSERVAÇÕES DE PLAYTEST
 
-###BALANCEAMENTO
+### BALANCEAMENTO
 - Primeira peça eliminada:
 - Última peça viva:
 - Habilidade mais decisiva:
@@ -46,20 +46,23 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 # Roadmap - Versão 1.0
 
 ## 0. Identidade do Jogo
-- [ ] Manter regras simples.
-- [ ] Garantir que o jogo seja divertido.
-- [ ] Garantir alta replayabilidade.
+- Manter regras simples.
+- Garantir que o jogo seja divertido.
+- Garantir alta replayabilidade.
 
 ## 1. Personagens
 - [ ] Criar 10 personagens jogáveis.
-- [ ] Possuir 2 personagens para cada classe (Tanque, DPS, Atirador, Mago e Suporte).
-- [ ] Garantir identidade própria para cada personagem.
+- [ ] 2º Tanque
+- [ ] 2º DPS
+- [ ] 2º Atirador
+- [ ] 2º Mago
+- [ ] 2º Suporte
 - [ ] Balancear todos os personagens.
 
 ## 2. Mapas
-- [ ] Criar 6 mapas oficiais.
+- [X] Criar 6 mapas oficiais - *Falta testar cada modelo*
 - [ ] Balancear todos os mapas.
-- [ ] Implementar seleção aleatória por dado.
+- [X] Implementar seleção aleatória por dado.
 
 ## 3. Mecânicas Variáveis
 ### Definição
