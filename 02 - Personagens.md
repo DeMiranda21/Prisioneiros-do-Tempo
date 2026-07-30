@@ -132,7 +132,7 @@ Escolha um inimigo dentro do alcance.
 
 Esse inimigo sofre **X + 1 de dano**.
 
-#### Animar Morto
+#### Animar Morto  
 
 O Mago Negro sofre **1 de dano**.
 
@@ -210,4 +210,12 @@ Usa a zarabatana
 - Habilidade — Flecha Envenenada - Alcance 3. Causa 1 de dano. No início do próximo turno do alvo, ele sofre mais 1 de dano.
 - Caçador da Mata (Passiva) - Após realizar um ataque, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
 - (Não implementada) Caçador Nato (Passiva) - O Guerreiro Tupi pode realizar ataques normais na diagonal.
+
+## - 2º Mago
+Druida
+- Habilidade - Ira da Natureza (1 vez por partida) - Escolha uma linha do tabuleiro. Vinhas percorrem toda a linha. Todas as peças atingidas sofrem 1 de dano. No próximo turno, as peças atingidas não podem se mover. O Druida não sofre dano desta habilidade.
+- Habilidade Normal I - Cipós - Escolha uma peça inimiga dentro do alcance. Mova-a para uma casa adjacente livre, inclusive na diagonal.
+- Habilidade Normal II - Espírito do Lobo - Escolha um aliado. Até o fim do turno, ele recebe +2 de Movimento. - Buff Movimento
+- (Não implementada) Raiz Faminta - Escolha uma peça. Ela sofre 1 de dano.Cure 1 de Vida do Druida.
+
 
