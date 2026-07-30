@@ -184,3 +184,23 @@ Uma peça inimiga dentro do alcance fica presa no tempo. Ela não pode mover-se,
 - Cura aliados.
 - Pode converter inimigos enfraquecidos.
 - Controla o campo de batalha através do Confinamento Místico.
+
+# Personagens em Criação
+
+## Habilidades em Desenvolvimento e Sem Classe Definida
+- Habilidade que empurra aliado.
+- Habilidade que troca de lugar com outro.
+- Habilidade de teletransporte.
+- Habilidade de cura através de doação de hp.
+- Escudo de Bronze: Na primeira vez que sofrer dano em cada rodada, reduza esse dano em 1.
+- Escudos Unidos: Sempre que um aliado adjacente sofrer um ataque, o Hoplita pode sofrer 1 ponto desse dano em seu lugar.
+
+## Hoplita Grego - 2º Tanque
+- Habilidade — Muralha de Escudos 
+Enquanto o Hoplita Grego estiver adjacente a pelo menos um aliado, ele e todos os aliados ortogonalmente adjacentes a ele recebem -1 de dano.
+
+- (Não implementada) Passiva (Em teste, implementar quando tiver deslocamento no jogo, vai ter que colocar passivo para o cavaleiro) - Linha Inquebrável: Aliados adjacentes ao Hoplita não podem ser empurrados ou deslocados por habilidades.
+
+## - 2º DPS
+
+
