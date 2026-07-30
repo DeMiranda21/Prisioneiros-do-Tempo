@@ -201,6 +201,13 @@ Enquanto o Hoplita Grego estiver adjacente a pelo menos um aliado, ele e todos o
 
 - (Não implementada) Passiva (Em teste, implementar quando tiver deslocamento no jogo, vai ter que colocar passivo para o cavaleiro) - Linha Inquebrável: Aliados adjacentes ao Hoplita não podem ser empurrados ou deslocados por habilidades.
 
-## - 2º DPS
+## - Samurai - 2º DPS
+- Corte Preciso (Passiva)
+Ataques realizados na diagonal causam o dano normal do Samurai. Ataques realizados ortogonalmente causam apenas 2 de dano.
 
+## - Guerreiro Tupi - 2º Atirador
+Usa a zarabatana
+- Habilidade — Flecha Envenenada - Alcance 3. Causa 1 de dano. No início do próximo turno do alvo, ele sofre mais 1 de dano.
+- Caçador da Mata (Passiva) - Após realizar um ataque, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
+- (Não implementada) Caçador Nato (Passiva) - O Guerreiro Tupi pode realizar ataques normais na diagonal.
 
