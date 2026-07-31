@@ -48,7 +48,7 @@ Cada peça atravessada sofre **2 de dano**.
 ### Habilidades
 
 #### Medo do Sobrenatural *(Passiva)* 
-- O Bárbaro sofre **+1 de dano** sempre que recebe dano de um **Mago Negro**.
+- O Bárbaro sofre **+1 de dano** sempre que recebe dano de um **Mago**.
 
 ## Samurai
 
