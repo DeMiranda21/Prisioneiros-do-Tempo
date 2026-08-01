@@ -170,7 +170,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Quando um aliado em qualquer lugar do mapa estiver com 1 de vida, você pode eliminar este personagem para recuperar toda a vida do aliado ferido.
 
 #### Transferência Vital
-- Sofra 1 de dano. Um aliado recupera 2 de Vida.
+- Sofra 1 de dano. Escolha um aliado dentro do alcance para recuperar 2 de Vida.
 
 #### Regeneração 
 - Recupere 1 de Vida.
