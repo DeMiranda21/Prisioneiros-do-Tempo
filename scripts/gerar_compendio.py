@@ -138,7 +138,7 @@ with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
     # DOCUMENTOS
     # ======================================================
 
-   for arquivo in arquivos:
+    for arquivo in arquivos:
 
         caminho = arquivo.as_posix()
 
