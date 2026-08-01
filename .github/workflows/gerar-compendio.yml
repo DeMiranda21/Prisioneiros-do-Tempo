@@ -34,19 +34,8 @@ jobs:
         run: |
           python scripts/gerar_compendio.py
 
-      - name: Commit e Push
-        run: |
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add Prisioneiros-do-Tempo-Compendio.md
-
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração no compêndio."
-            exit 0
-          fi
-
-          git commit -m "Atualiza compêndio automaticamente"
-
-          git push
+      - name: Commit das alterações
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Atualiza compêndio automaticamente
+          file_pattern: Prisioneiros-do-Tempo-Compendio.md
