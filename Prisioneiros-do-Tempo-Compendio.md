@@ -4,13 +4,21 @@
 
 Este documento é gerado automaticamente pelo GitHub Actions.
 
-Sempre que houver conflito entre este documento e qualquer conversa, este documento deve ser considerado a fonte oficial do projeto.
+---
+
+# Contexto Oficial para IA
+
+Este documento representa a documentação oficial do projeto **Prisioneiros do Tempo**.
+
+Sempre que houver conflito entre este documento e qualquer conversa anterior, este documento prevalece.
+
+Novas ideias discutidas em conversa somente passam a fazer parte do projeto após aprovação do autor e atualização da documentação oficial.
 
 ---
 
-**Gerado em:** 01/08/2026 16:19
+**Gerado em:** 01/08/2026 16:23 UTC
 
-**Commit:** `aa0a4c7`
+**Commit:** `9599a5f`
 
 **Quantidade de documentos:** 6
 
@@ -18,20 +26,26 @@ Sempre que houver conflito entre este documento e qualquer conversa, este docume
 
 # Índice
 
-- [01 - Regras e Mecânicas](#01---regras-e-mecânicas)
-- [02 - Personagens](#02---personagens)
-- [03 - Mapas](#03---mapas)
-- [04 - Lore](#04---lore)
-- [05 - Backlog](#05---backlog)
-- [README](#readme)
+- [01 - Regras e Mecânicas.md](#01---regras-e-mecânicasmd)
+- [02 - Personagens.md](#02---personagensmd)
+- [03 - Mapas.md](#03---mapasmd)
+- [04 - Lore.md](#04---loremd)
+- [05 - Backlog.md](#05---backlogmd)
+- [README.md](#readmemd)
 
 
 ---
 
 
-======================================================================
+================================================================================
 
-# 01 - Regras e Mecânicas
+<a id="01---regras-e-mecânicasmd"></a>
+
+# 01 - Regras e Mecânicas.md
+
+*Arquivo original:* `01 - Regras e Mecânicas.md`
+
+---
 
 # Regras e Mecânicas
 
@@ -147,9 +161,15 @@ A partida termina imediatamente quando:
 
 
 
-======================================================================
+================================================================================
 
-# 02 - Personagens
+<a id="02---personagensmd"></a>
+
+# 02 - Personagens.md
+
+*Arquivo original:* `02 - Personagens.md`
+
+---
 
 # Personagens
 
@@ -347,9 +367,15 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 
 
 
-======================================================================
+================================================================================
 
-# 03 - Mapas
+<a id="03---mapasmd"></a>
+
+# 03 - Mapas.md
+
+*Arquivo original:* `03 - Mapas.md`
+
+---
 
 # Mapas
 
@@ -500,9 +526,15 @@ Pode colocar na zona inicial.
 
 
 
-======================================================================
+================================================================================
 
-# 04 - Lore
+<a id="04---loremd"></a>
+
+# 04 - Lore.md
+
+*Arquivo original:* `04 - Lore.md`
+
+---
 
 # Lore
 
@@ -572,9 +604,15 @@ Até lá…
 
 
 
-======================================================================
+================================================================================
 
-# 05 - Backlog
+<a id="05---backlogmd"></a>
+
+# 05 - Backlog.md
+
+*Arquivo original:* `05 - Backlog.md`
+
+---
 
 # Backlog
 
@@ -683,9 +721,15 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 
 
-======================================================================
+================================================================================
 
-# README
+<a id="readmemd"></a>
+
+# README.md
+
+*Arquivo original:* `README.md`
+
+---
 
 # Prisioneiros do Tempo
 
