@@ -6,36 +6,89 @@ on:
       - main
     paths:
       - "**/*.md"
-  
+      - "scripts/gerar_compendio.py"
+
 permissions:
   contents: write
 
 jobs:
   gerar:
 
-    # Não executa quando o commit foi feito pelo próprio bot
-    if: github.actor != 'github-actions[bot]'
-
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Baixar repositório
+      ####################################################
+      # Checkout da MAIN
+      ####################################################
+
+      - name: Checkout da main
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      ####################################################
+      # Python
+      ####################################################
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      ####################################################
+      # Gera o compêndio
+      ####################################################
+
       - name: Gerar Compêndio
         run: |
           python scripts/gerar_compendio.py
 
-      - name: Commit das alterações
-        uses: stefanzweifel/git-auto-commit-action@v5
+      ####################################################
+      # Guarda o arquivo gerado
+      ####################################################
+
+      - name: Salvar compêndio temporariamente
+        run: |
+          mkdir /tmp/compendium
+          cp Prisioneiros-do-Tempo-Compendio.md /tmp/compendium/
+
+      ####################################################
+      # Checkout da branch compendium
+      ####################################################
+
+      - name: Checkout da branch compendium
+        uses: actions/checkout@v4
         with:
-          commit_message: Atualiza compêndio automaticamente
-          file_pattern: Prisioneiros-do-Tempo-Compendio.md
+          ref: compendium
+          path: compendium
+
+      ####################################################
+      # Copia apenas o arquivo
+      ####################################################
+
+      - name: Atualizar arquivo
+        run: |
+          cp /tmp/compendium/Prisioneiros-do-Tempo-Compendio.md compendium/
+
+      ####################################################
+      # Commit
+      ####################################################
+
+      - name: Commit
+        working-directory: compendium
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Prisioneiros-do-Tempo-Compendio.md
+
+          if git diff --cached --quiet; then
+            echo "Sem alterações."
+            exit 0
+          fi
+
+          git commit -m "Atualiza compêndio"
+
+          git push
