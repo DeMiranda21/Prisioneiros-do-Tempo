@@ -1,6 +1,14 @@
 name: Gerar Compêndio
 
 on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/gerar_compendio.py"
   push:
     branches:
       - main
