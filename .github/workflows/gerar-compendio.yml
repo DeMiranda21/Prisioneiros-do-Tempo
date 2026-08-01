@@ -1,0 +1,37 @@
+name: Gerar Compêndio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Executar script
+        run: |
+          python scripts/gerar_compendio.py
+
+      - name: Commit automático
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add Prisioneiros-do-Tempo-Compendio.md
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração."
+          else
+            git commit -m "Atualiza compêndio automaticamente"
+            git push
+          fi
