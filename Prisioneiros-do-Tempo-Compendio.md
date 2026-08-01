@@ -1,25 +1,37 @@
 # Prisioneiros do Tempo
-## Compêndio Automático
+
+## Compêndio Oficial
+
+Este documento é gerado automaticamente pelo GitHub Actions.
+
+Sempre que houver conflito entre este documento e qualquer conversa, este documento deve ser considerado a fonte oficial do projeto.
+
+---
+
+**Gerado em:** 01/08/2026 15:31
+
+**Commit:** `492a434`
+
+**Quantidade de documentos:** 6
+
+---
+
+# Índice
+
+- [01 - Regras e Mecânicas](#01---regras-e-mecânicas)
+- [02 - Personagens](#02---personagens)
+- [03 - Mapas](#03---mapas)
+- [04 - Lore](#04---lore)
+- [05 - Backlog](#05---backlog)
+- [README](#readme)
+
 
 ---
 
 
+======================================================================
 
----
-
-<!-- INÍCIO README.md -->
-
-# Prisioneiros do Tempo
-
-Projeto do jogo de tabuleiro.
-
-
-<!-- FIM README.md -->
-
-
----
-
-<!-- INÍCIO 01 - Regras e Mecânicas.md -->
+# 01 - Regras e Mecânicas
 
 # Regras e Mecânicas
 
@@ -133,12 +145,11 @@ A partida termina imediatamente quando:
 - um jogador alcança **4 pontos**.
 
 
-<!-- FIM 01 - Regras e Mecânicas.md -->
 
 
----
+======================================================================
 
-<!-- INÍCIO 02 - Personagens.md -->
+# 02 - Personagens
 
 # Personagens
 
@@ -334,12 +345,11 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 
 
 
-<!-- FIM 02 - Personagens.md -->
 
 
----
+======================================================================
 
-<!-- INÍCIO 03 - Mapas.md -->
+# 03 - Mapas
 
 # Mapas
 
@@ -488,12 +498,11 @@ Pode colocar na zona inicial.
 ```
 
 
-<!-- FIM 03 - Mapas.md -->
 
 
----
+======================================================================
 
-<!-- INÍCIO 04 - Lore.md -->
+# 04 - Lore
 
 # Lore
 
@@ -561,12 +570,11 @@ Até lá…
 **A guerra continua.**
 
 
-<!-- FIM 04 - Lore.md -->
 
 
----
+======================================================================
 
-<!-- INÍCIO 05 - Backlog.md -->
+# 05 - Backlog
 
 # Backlog
 
@@ -673,4 +681,14 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - [ ] O jogo foi validado por partidas de teste.
 
 
-<!-- FIM 05 - Backlog.md -->
+
+
+======================================================================
+
+# README
+
+# Prisioneiros do Tempo
+
+Projeto do jogo de tabuleiro.
+
+
