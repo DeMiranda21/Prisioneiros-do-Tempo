@@ -6,10 +6,7 @@ import subprocess
 # CONFIGURAÇÕES
 # ==========================================================
 
-PASTA_SAIDA = Path("generated")
-PASTA_SAIDA.mkdir(exist_ok=True)
-
-ARQUIVO_SAIDA = "Prisioneiros-do-Tempo-Compendio.md"
+ARQUIVO_SAIDA = Path("Prisioneiros-do-Tempo-Compendio.txt")
 
 IGNORAR_PASTAS = {
     ".git",
@@ -20,11 +17,11 @@ IGNORAR_PASTAS = {
 }
 
 IGNORAR_ARQUIVOS = {
-    ARQUIVO_SAIDA,
+    ARQUIVO_SAIDA.name,
 }
 
 # ==========================================================
-# LOCALIZA TODOS OS MARKDOWN DO PROJETO
+# LOCALIZA TODOS OS DOCUMENTOS
 # ==========================================================
 
 arquivos = []
@@ -124,6 +121,19 @@ with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
         "documento a informação está registrada.\n\n"
     )
 
+    out.write("\n")
+    out.write("FILOSOFIA DO PROJETO\n")
+    out.write("-" * 80 + "\n\n")
+
+    out.write("• Simplicidade acima de complexidade.\n")
+    out.write("• Alta rejogabilidade.\n")
+    out.write("• Personagens com identidade única.\n")
+    out.write("• Mecânicas intuitivas.\n")
+    out.write("• Clareza das regras.\n")
+    out.write("• Equilíbrio acima de realismo.\n")
+    out.write("• A documentação oficial sempre prevalece.\n")
+    out.write("• Este documento representa o estado oficial do projeto na data de sua geração.\n\n")
+
     out.write("-" * 80 + "\n\n")
 
     out.write(f"Gerado em: {data}\n")
@@ -134,9 +144,13 @@ with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
     out.write("ÍNDICE\n")
     out.write("=" * 80 + "\n\n")
 
-    # ======================================================
-    # DOCUMENTOS
-    # ======================================================
+    for arquivo in arquivos:
+        out.write(f"- {arquivo.as_posix()}\n")
+
+    out.write("\n")
+    out.write("=" * 80 + "\n")
+    out.write("DOCUMENTAÇÃO OFICIAL\n")
+    out.write("=" * 80 + "\n")
 
     for arquivo in arquivos:
 
