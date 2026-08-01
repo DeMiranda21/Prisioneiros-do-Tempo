@@ -1,48 +1,112 @@
-name: Gerar Compêndio
+from pathlib import Path
+from datetime import datetime
+import subprocess
 
-on:
-  push:
-    branches:
-      - main
+# ==============================
+# CONFIGURAÇÕES
+# ==============================
 
-jobs:
-  gerar:
-    # Não executa quando o próprio bot gera o compêndio
-    if: github.actor != 'github-actions[bot]'
+ARQUIVO_SAIDA = "Prisioneiros-do-Tempo-Compendio.md"
 
-    runs-on: ubuntu-latest
+IGNORAR_PASTAS = {
+    ".git",
+    ".github",
+    "scripts",
+}
 
-    permissions:
-      contents: write
+IGNORAR_ARQUIVOS = {
+    ARQUIVO_SAIDA,
+}
 
-    steps:
-      - name: Baixar repositório
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+# ==============================
+# BUSCA DOS DOCUMENTOS
+# ==============================
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+arquivos = []
 
-      - name: Executar script
-        run: python scripts/gerar_compendio.py
+for arquivo in Path(".").glob("*.md"):
 
-      - name: Commit automático
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+    if arquivo.name in IGNORAR_ARQUIVOS:
+        continue
 
-          git add Prisioneiros-do-Tempo-Compendio.md
+    arquivos.append(arquivo)
 
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração."
-            exit 0
-          fi
+arquivos.sort(key=lambda a: a.name.lower())
 
-          git commit -m "Atualiza compêndio automaticamente [skip ci]"
+# ==============================
+# INFORMAÇÕES DO REPOSITÓRIO
+# ==============================
 
-          git pull --rebase origin main
+try:
+    commit = subprocess.check_output(
+        ["git", "rev-parse", "--short", "HEAD"],
+        text=True
+    ).strip()
+except Exception:
+    commit = "desconhecido"
 
-          git push origin HEAD:main
+data = datetime.now().strftime("%d/%m/%Y %H:%M")
+
+# ==============================
+# GERAÇÃO DO COMPÊNDIO
+# ==============================
+
+with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
+
+    out.write("# Prisioneiros do Tempo\n\n")
+
+    out.write("## Compêndio Oficial\n\n")
+
+    out.write(
+        "Este documento é gerado automaticamente pelo GitHub Actions.\n\n"
+    )
+
+    out.write(
+        "Sempre que houver conflito entre este documento e qualquer conversa, "
+        "este documento deve ser considerado a fonte oficial do projeto.\n\n"
+    )
+
+    out.write("---\n\n")
+
+    out.write(f"**Gerado em:** {data}\n\n")
+
+    out.write(f"**Commit:** `{commit}`\n\n")
+
+    out.write(f"**Quantidade de documentos:** {len(arquivos)}\n\n")
+
+    out.write("---\n\n")
+
+    out.write("# Índice\n\n")
+
+    for arquivo in arquivos:
+
+        titulo = arquivo.stem
+
+        ancora = (
+            titulo
+            .lower()
+            .replace(" ", "-")
+            .replace(".", "")
+        )
+
+        out.write(f"- [{titulo}](#{ancora})\n")
+
+    out.write("\n\n---\n")
+
+    for arquivo in arquivos:
+
+        titulo = arquivo.stem
+
+        out.write("\n\n")
+        out.write("=" * 70)
+        out.write("\n\n")
+
+        out.write(f"# {titulo}\n\n")
+
+        out.write(
+            arquivo.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        out.write("\n\n")
