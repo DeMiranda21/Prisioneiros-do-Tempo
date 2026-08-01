@@ -169,3 +169,8 @@ with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
             out.write("\n")
 
         out.write("\n")
+
+print("=" * 60)
+print("COMPÊNDIO GERADO")
+print(ARQUIVO_SAIDA.resolve())
+print("=" * 60)
