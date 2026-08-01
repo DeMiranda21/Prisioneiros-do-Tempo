@@ -1,34 +1,112 @@
 from pathlib import Path
+from datetime import datetime
+import subprocess
 
-# Ordem dos arquivos que formarão o compêndio
-arquivos = [
-    "README.md",
-    "01 - Regras e Mecânicas.md",
-    "02 - Personagens.md",
-    "03 - Mapas.md",
-    "04 - Lore.md",
-    "05 - Backlog.md",
-]
+# ==============================
+# CONFIGURAÇÕES
+# ==============================
 
-saida = Path("Prisioneiros-do-Tempo-Compendio.md")
+ARQUIVO_SAIDA = "Prisioneiros-do-Tempo-Compendio.md"
 
-with saida.open("w", encoding="utf-8") as compendio:
+IGNORAR_PASTAS = {
+    ".git",
+    ".github",
+    "scripts",
+}
 
-    compendio.write("# Prisioneiros do Tempo\n")
-    compendio.write("## Compêndio Automático\n\n")
-    compendio.write("---\n\n")
+IGNORAR_ARQUIVOS = {
+    ARQUIVO_SAIDA,
+}
+
+# ==============================
+# BUSCA DOS DOCUMENTOS
+# ==============================
+
+arquivos = []
+
+for arquivo in Path(".").glob("*.md"):
+
+    if arquivo.name in IGNORAR_ARQUIVOS:
+        continue
+
+    arquivos.append(arquivo)
+
+arquivos.sort(key=lambda a: a.name.lower())
+
+# ==============================
+# INFORMAÇÕES DO REPOSITÓRIO
+# ==============================
+
+try:
+    commit = subprocess.check_output(
+        ["git", "rev-parse", "--short", "HEAD"],
+        text=True
+    ).strip()
+except Exception:
+    commit = "desconhecido"
+
+data = datetime.now().strftime("%d/%m/%Y %H:%M")
+
+# ==============================
+# GERAÇÃO DO COMPÊNDIO
+# ==============================
+
+with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as out:
+
+    out.write("# Prisioneiros do Tempo\n\n")
+
+    out.write("## Compêndio Oficial\n\n")
+
+    out.write(
+        "Este documento é gerado automaticamente pelo GitHub Actions.\n\n"
+    )
+
+    out.write(
+        "Sempre que houver conflito entre este documento e qualquer conversa, "
+        "este documento deve ser considerado a fonte oficial do projeto.\n\n"
+    )
+
+    out.write("---\n\n")
+
+    out.write(f"**Gerado em:** {data}\n\n")
+
+    out.write(f"**Commit:** `{commit}`\n\n")
+
+    out.write(f"**Quantidade de documentos:** {len(arquivos)}\n\n")
+
+    out.write("---\n\n")
+
+    out.write("# Índice\n\n")
 
     for arquivo in arquivos:
 
-        caminho = Path(arquivo)
+        titulo = arquivo.stem
 
-        if not caminho.exists():
-            print(f"{arquivo} não encontrado.")
-            continue
+        ancora = (
+            titulo
+            .lower()
+            .replace(" ", "-")
+            .replace(".", "")
+        )
 
-        compendio.write(f"\n\n---\n\n")
-        compendio.write(f"<!-- INÍCIO {arquivo} -->\n\n")
+        out.write(f"- [{titulo}](#{ancora})\n")
 
-        compendio.write(caminho.read_text(encoding="utf-8"))
+    out.write("\n\n---\n")
 
-        compendio.write(f"\n\n<!-- FIM {arquivo} -->\n")
+    for arquivo in arquivos:
+
+        titulo = arquivo.stem
+
+        out.write("\n\n")
+        out.write("=" * 70)
+        out.write("\n\n")
+
+        out.write(f"# {titulo}\n\n")
+
+        out.write(
+            arquivo.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        out.write("\n\n")
