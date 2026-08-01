@@ -50,12 +50,12 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - Garantir alta replayabilidade.
 
 ## 1. Personagens
-- [ ] Criar 10 personagens jogáveis.
-- [ ] 2º Tanque
-- [ ] 2º DPS
-- [ ] 2º Atirador
-- [ ] 2º Mago
-- [ ] 2º Suporte
+- [x] Criar 10 personagens jogáveis.
+- [x] 2º Tanque
+- [x] 2º DPS
+- [x] 2º Atirador
+- [x] 2º Mago
+- [x] 2º Suporte
 - [ ] Balancear todos os personagens.
 
 ## 2. Mapas
