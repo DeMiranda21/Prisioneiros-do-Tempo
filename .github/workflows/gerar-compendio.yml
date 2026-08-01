@@ -4,34 +4,52 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "**/*.md"
+      
+    paths-ignore:
+    - "Prisioneiros-do-Tempo-Compendio.md"
+
+permissions:
+  contents: write
 
 jobs:
   gerar:
+
+    # Não executa quando o commit foi feito pelo próprio bot
+    if: github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Baixar repositório
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Executar script
+      - name: Gerar Compêndio
         run: |
           python scripts/gerar_compendio.py
 
-      - name: Commit automático
+      - name: Commit e Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add Prisioneiros-do-Tempo-Compendio.md
 
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração."
-          else
-            git commit -m "Atualiza compêndio automaticamente"
-            git push
+            echo "Nenhuma alteração no compêndio."
+            exit 0
           fi
+
+          git commit -m "Atualiza compêndio automaticamente"
+
+          git push
