@@ -89,9 +89,13 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 ### Habilidades
 
 #### Fumaça Venenosa *(Ação Especial)* 
-- Alcance 3. Cause 1 de dano ao alvo. Um inimigo adjacente ao alvo, à sua escolha, também sofre 1 de dano.
+- Alcance 3, pode atacar na diagonal. Cause 1 de dano ao alvo. Um inimigo adjacente ao alvo, à sua escolha, também sofre 1 de dano.
 
-#### Caçador da Mata *(Passiva)* - Após realizar um ataque normal, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
+#### Caçador da Mata *(Passiva)* 
+- Após realizar um ataque normal, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
+
+#### Caçador Nato *(Passiva)* 
+- O Guerreiro Tupi pode realizar ataques normais na diagonal.
 
 ---
 
@@ -127,10 +131,10 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Escolha uma linha do tabuleiro. Vinhas percorrem toda a linha. Todas as peças atingidas sofrem 1 de dano. No próximo turno, as peças atingidas não podem se mover. O Druida não sofre dano desta habilidade.
 
 #### Cipós  *(Ação Especial)* 
-- Escolha uma peça inimiga dentro do alcance. Mova-a para uma casa adjacente livre, inclusive na diagonal.
+- Escolha uma peça inimiga dentro do alcance. Mova-a até duas casas adjacentes livres, na ortogonal, não pode mover na diagonal.
 
 #### Espírito do Lobo *(Ação Especial)* 
-- Escolha um aliado. Até o fim do turno, ele recebe +2 de Movimento. - Buff Movimento
+- Escolha um aliado dentro do alcance. Até o fim do turno, ele recebe +2 de Movimento.
 
 ---
 
@@ -162,8 +166,8 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 
 ### Habilidades
 
-#### Sacrifício *(1 vez por partida)*
-- Quando um aliado a até 2 casas seria derrotado por uma fonte de dano, você pode eliminar este personagem em seu lugar. O aliado não sofre o dano desse ataque.
+#### Sacrifício *(1 vez por partida)* 
+- Quando um aliado em qualquer lugar do mapa estiver com 1 de vida, você pode eliminar este personagem para recuperar toda a vida do aliado ferido.
 
 #### Transferência Vital
 - Sofra 1 de dano. Um aliado recupera 2 de Vida.
@@ -177,12 +181,9 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Habilidade que empurra aliado.
 - Habilidade que troca de lugar com outro.
 - Habilidade de teletransporte.
-- Habilidade de cura através de doação de hp.
 - Escudo de Bronze: Na primeira vez que sofrer dano em cada rodada, reduza esse dano em 1.
-- Escudos Unidos: Sempre que um aliado adjacente sofrer um ataque, o Hoplita pode sofrer 1 ponto desse dano em seu lugar.
 - Raiz Faminta - Escolha uma peça. Ela sofre 1 de dano.Cure 1 de Vida do Druida.
 - Linha Inquebrável: Aliados adjacentes ao Hoplita não podem ser empurrados ou deslocados por habilidades.
-- Caçador Nato (Passiva) - O Guerreiro Tupi pode realizar ataques normais na diagonal.
 - Habilidade Normal - Bosque Vivo - Alcance: 3 - Escolha uma casa vazia. Até o início do seu próximo turno, essa casa não pode ser atravessada nem ocupada.
 
 
