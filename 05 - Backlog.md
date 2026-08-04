@@ -16,8 +16,6 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ### Mapas
 - Usei dama para obstáculos.
-- Usar portais, entra em um sai no outro;
-- Zona Inicial dividida em vários locais do mapa/compartilhada.
 - Mecânicas de portais, moedas, etc não devem ser fixas dos mapas, devem ser modulares. Descobrir uma forma de balancear a implementação; Qual jogador decide onde vai ser?
 
 ### Componentes
@@ -25,10 +23,14 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - Tabuleiro Modular;
 
 ## Em teste
-- Habilidade que empurra aliado.
-- Habilidade que troca de lugar com outro.
-- Habilidade de teletransporte.
-- Habilidade de cura através de doação de hp.
+### Alterações No Mapa (Cartas de Cenário)
+- Usar portais, entra em um sai no outro;
+- Zona Inicial dividida em vários locais do mapa/compartilhada.
+- Relíquias/Altares - Terminar o turno na casa específica dá algum efeito (cura, mais dano, etc)
+### Alterações No Modo de Jogo (Cartas de Objetivo)
+- Zona de Captura;
+- Captura de Item;
+### Alterações de Condição/Efeitos
 
 ## OBSERVAÇÕES DE PLAYTEST
 
