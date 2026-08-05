@@ -23,14 +23,30 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 - Tabuleiro Modular;
 
 ## Em teste
-### Alterações No Mapa (Cartas de Cenário)
-- Usar portais, entra em um sai no outro;
-- Zona Inicial dividida em vários locais do mapa/compartilhada.
-- Relíquias/Altares - Terminar o turno na casa específica dá algum efeito (cura, mais dano, etc)
-### Alterações No Modo de Jogo (Cartas de Objetivo)
+### Alterações No Modo de Jogo (Cartas de Objetivo) - Deixar para fazer somente após definir alterações de mapa e condições.
 - Zona de Captura;
 - Captura de Item;
-### Alterações de Condição/Efeitos
+### Alterações No Mapa (Cartas de Cenário)
+- Relíquias/Altares - Terminar o turno na casa específica dá algum efeito. Vamos ter apenas altar de cura e de restauração de habilidade única. Vamos implementar futuramente.
+
+
+### Condição da Convergência
+- 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
+- 02. Convergência - Antes do início da partida uma classe é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição com a peça inimiga da mesma classe. Caso uma delas tenha sido eliminada, nada acontece com aquela classe.
+- 03. Calmaria - Sem efeitos.
+- 04. Pressão Constante - Nenhum jogador pode encerrar seu turno sem realizar uma ação, se houver uma ação legal disponível.
+- 05. Caçada - O primeiro jogador a eliminar um personagem recebe 2 pontos em vez de 1.
+- 06. Heróis da Convergência - No início da partida, sorteie uma peça de cada jogador. Enquanto permanecer viva, essa peça concede 2 pontos ao eliminar um inimigo. Quando for eliminada, concede 2 pontos ao adversário.
+- 07. Última Esperança - Quando um jogador perder sua terceira peça, escolha um aliado sobrevivente. Ele recupera toda a Vida.
+- 08. Exércitos Espalhados - Cada jogador deve posicionar pelo menos uma peça em cada metade da Zona Inicial.
+- 09. O traidor - No início da partida, cada jogador escolhe secretamente uma peça inimiga. Após a primeira eliminação da partida, revelem as escolhas. As peças escolhidas passam imediatamente para o controle do adversário.
+- 10. Forças Reservas - No início da partida, cada jogador posiciona apenas três peças. Sempre que uma peça aliada for eliminada, uma das peças restantes entra em jogo em qualquer casa livre da Zona Inicial.
+- 11. Colapso Temporal - Após a primeira eliminação da partida, todas as peças retornam imediatamente às posições em que iniciaram a partida. Vida e habilidades utilizadas não são restauradas.
+
+### Anomalias da Convergência (Alterações do Mapa)
+- Portais da Convergência - Antes do início da partida, cada jogador escolhe secretamente uma casa livre do tabuleiro. Revelem simultaneamente. Essas casas tornam-se Portais da Convergência. Uma peça que terminar seu movimento sobre um Portal pode optar por ser transportada para o outro Portal. O transporte é opcional, se estiver ocupando o portal ele não pode ser usado.
+
+
 
 ## OBSERVAÇÕES DE PLAYTEST
 
