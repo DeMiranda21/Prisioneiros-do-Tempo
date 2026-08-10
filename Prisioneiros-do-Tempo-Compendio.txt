@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 05/08/2026 01:01 UTC
-Commit: 36ca031
+Gerado em: 10/08/2026 22:07 UTC
+Commit: 59846c8
 Documentos encontrados: 6
 
 ================================================================================
@@ -75,7 +75,7 @@ ARQUIVO: 01 - Regras e Mecânicas.md
 
 O objetivo da partida é:
 
-- Eliminar todas as peças do adversário; ou
+- Eliminar todas as peças do adversário ou;
 - Alcançar **4 pontos**, obtidos ao eliminar peças inimigas.
 
 ---
@@ -92,13 +92,14 @@ Para o protótipo são utilizados:
 
 ## Preparação
 
-1. Escolha um mapa ou jogue o dado para um mapa aleatório (um número para cada mapa).
-2. Posicione os obstáculos conforme o mapa escolhido.
-3. Selecione uma condição da convergência de forma aleatória.
-4. Selecione se haverá anomalia de forma aleatória.
-5. Decida aleatoriamente quem inicia a partida.
-6. Os jogadores alternam posicionando suas peças na Zona Inicial.
-7. O jogador que posicionou a primeira peça realiza o primeiro turno.
+1. Cada jogador seleciona a composição do seu time (cada time deve conter obrigatoriamente: um tanque, um DPS, um atirador, um mago e um suporte);
+2. Jogue o dado para selecionar aleatoriamente um dos seis mapas (um número para cada mapa).
+3. Posicione os obstáculos conforme o mapa escolhido.
+4. Selecione uma condição da convergência de forma aleatória.
+5. Selecione se haverá anomalia de forma aleatória.
+6. Decida aleatoriamente quem inicia a partida.
+7. Os jogadores alternam posicionando suas peças na Zona Inicial.
+8. O jogador que posicionou a primeira peça realiza o primeiro turno.
 
 ---
 
@@ -120,7 +121,7 @@ Após realizar uma ação, a peça não pode mais se mover naquele turno.
 
 ## Movimento
 
-- As peças movem-se apenas na horizontal e vertical.
+- As peças movem-se apenas na horizontal.
 - Cada personagem possui um valor de Movimento.
 - Movimentos diagonais somente quando uma habilidade permitir.
 - Não é permitido atravessar peças.
@@ -130,14 +131,14 @@ Após realizar uma ação, a peça não pode mais se mover naquele turno.
 
 ## Ataques
 
-- Os ataques são realizados em linha reta.
+- Os ataques são realizados em linha reta (ortogonais).
 - Cada personagem possui um valor de Alcance.
 - Ataques diagonais somente quando uma habilidade permitir.
 - Ataques não atravessam peças nem obstáculos.
 
 Quando uma peça recebe dano, perde Vida igual ao Ataque do agressor.
 
-Ao chegar a 0 de Vida, ela é removida do tabuleiro.
+Ao chegar a 0 de Vida, ela é removida do tabuleiro e é concedido um ponto ao jogador que a derrotou.
 
 ---
 
@@ -161,26 +162,6 @@ Sempre que uma peça inimiga é eliminada, seu controlador recebe **1 ponto**.
 Caso essa peça seja posteriormente ressuscitada, esse ponto é perdido.
 
 ---
-
-## Efeitos
-
-### Confinamento Místico
-
-Uma peça sob Confinamento Místico:
-
-- não pode mover-se;
-- não pode atacar;
-- não pode utilizar habilidades;
-- não pode ser alvo de ataques.
-
----
-
-## Vitória
-
-A partida termina imediatamente quando:
-
-- um jogador elimina todas as peças adversárias; ou
-- um jogador alcança **4 pontos**.
 
 ## Condições da Convergência
 - 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
