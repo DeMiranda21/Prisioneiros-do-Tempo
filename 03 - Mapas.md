@@ -96,7 +96,7 @@ As ruínas dividem o mapa em vários corredores.
 6 | X . . . . . . .
 5 | . . . . X . X .
 4 | . X . X . . . .
-3 | X . . . . . . X
+3 | . . . . . . . X
 2 | X X X . . X X X
 1 | B B B B B B B B
 ```
@@ -124,11 +124,11 @@ Dois blocos de obstáculos simulam fortalezas separadas.
 
 ---
 
-## 06 – Bosque Silencioso (Em teste)
+## 06 – Bosque Silencioso
 
 ### Descrição
 
-Obstáculos distribuídos de forma irregular simulam uma floresta. Mara gerado aleatoriamente, cada jogador coloca 03 peças de obstáculos (árvores), simulando uma parte qualquer da floresta.
+Obstáculos distribuídos de forma irregular simulam uma floresta. Mara gerado aleatoriamente, cada jogador coloca 06 peças de obstáculos (árvores), simulando uma parte qualquer da floresta.
 Pode colocar na zona inicial.
 
 ```text
