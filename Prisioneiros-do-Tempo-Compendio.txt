@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 10/08/2026 22:07 UTC
-Commit: 59846c8
+Gerado em: 11/08/2026 00:17 UTC
+Commit: 2754b57
 Documentos encontrados: 6
 
 ================================================================================
@@ -187,11 +187,12 @@ ARQUIVO: 02 - Personagens.md
 
 # Personagens
 
-Cada Condutor controla uma equipe composta por cinco personagens, um de cada classe. Cada personagem possui atributos próprios e habilidades que definem seu papel em combate.
+Cada Condutor controla uma equipe composta por cinco personagens, um de cada classe: Tanque, DPS, Atirador, Mago e Suporte. Cada personagem possui atributos próprios e habilidades que definem seu papel em combate.
 
 ---
 
 # Tanques
+Personagens que devem ser capazes de suportar muito dano.
 
 ## Atributos
 
@@ -203,7 +204,6 @@ Cada Condutor controla uma equipe composta por cinco personagens, um de cada cla
 | Alcance   | 1 |
 
 ## Cavaleiro
-
 ### Habilidades
 
 #### Investida *(Ação Especial)* 
@@ -211,7 +211,6 @@ Cada Condutor controla uma equipe composta por cinco personagens, um de cada cla
 Cada peça atravessada sofre **2 de dano**.
 
 ## Hoplita Grego
-
 ### Habilidades
 
 #### Muralha de Escudos *(Passiva)*
@@ -220,6 +219,7 @@ Cada peça atravessada sofre **2 de dano**.
 ---
 
 # DPS
+Personagens focados em dano.
 
 ## Atributos
 
@@ -231,14 +231,12 @@ Cada peça atravessada sofre **2 de dano**.
 | Alcance   | 1 |
 
 ## Bárbaro
-
 ### Habilidades
 
 #### Medo do Sobrenatural *(Passiva)* 
 - O Bárbaro sofre **+1 de dano** sempre que recebe dano de um **Mago**.
 
 ## Samurai
-
 ### Habilidades
 
 #### Corte Preciso *(Passiva)*
@@ -247,6 +245,7 @@ Cada peça atravessada sofre **2 de dano**.
 ---
 
 # Atiradores
+Personagens focados em dano a longo alcance.
 
 ## Atributos
 
@@ -258,7 +257,6 @@ Cada peça atravessada sofre **2 de dano**.
 | Alcance   | 3 |
 
 ## Besteiro
-
 ### Habilidades
 
 #### Olho Longo *(Ação Especial)* 
@@ -272,7 +270,6 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Se não se moveu desde o turno anterior, seu ataque normal causa **+1 de dano**.
 
 ## - Guerreiro Tupi
-
 ### Habilidades
 
 #### Fumaça Venenosa *(Ação Especial)* 
@@ -287,6 +284,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 ---
 
 # Mago
+Personagens focados em uso de habilidades.
 
 ## Atributos
 
@@ -298,7 +296,6 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 | Alcance   | 2 |
 
 ## Mago Negro
-
 ### Habilidades
 
 #### Bomba Mágica *(1 vez por partida)* 
@@ -311,14 +308,13 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - O Mago Negro sofre **1 de dano**. Ressuscite uma peça aliada destruída em uma casa livre da Zona Inicial. Ela retorna com **2 pontos de vida**.
 
 ## Druida
-
 ### Habilidades
 
 #### Ira da Natureza *(1 vez por partida)*
-- Escolha uma linha do tabuleiro. Vinhas percorrem toda a linha. Todas as peças atingidas sofrem 1 de dano. No próximo turno, as peças atingidas não podem se mover. O Druida não sofre dano desta habilidade.
+- Escolha uma linha do tabuleiro. Vinhas percorrem toda a linha causando 1 de dano em todas as peças atingidas. No próximo turno, as peças atingidas não podem se mover. O Druida não sofre dano desta habilidade.
 
 #### Cipós  *(Ação Especial)* 
-- Escolha uma peça inimiga dentro do alcance. Mova-a até duas casas adjacentes livres, na ortogonal, não pode mover na diagonal.
+- Escolha uma peça inimiga dentro do alcance. Mova-a até duas casas adjacentes livres, em linhas retas ou na diagonal.
 
 #### Espírito do Lobo *(Ação Especial)* 
 - Escolha um aliado dentro do alcance. Até o fim do turno, ele recebe +2 de Movimento.
@@ -337,7 +333,6 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 | Alcance   | 2 |
 
 ## Clérigo
-
 ### Habilidades
 
 #### Conversão *(Ação Especial)* 
@@ -347,17 +342,16 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Uma peça aliada dentro do alcance recupera **3 pontos de vida**, até seu valor inicial. O Clérigo **não pode curar a si mesmo**.
 
 #### Confinamento Místico *(1 vez por partida)*
-- Uma peça inimiga dentro do alcance fica presa no tempo. Ela não pode mover-se, atacar, usar habilidade nem ser atacada. Pode ser movida por habilidades de deslocamento, porém não toma dano. Duração de 2 turnos.
+- Uma peça inimiga dentro do alcance fica presa no tempo. Ela não pode mover-se, atacar, usar habilidade nem ser atacada. Duração de 2 turnos.
 
 ## Mártir
-
 ### Habilidades
 
 #### Sacrifício *(1 vez por partida)* 
 - Quando um aliado em qualquer lugar do mapa estiver com 1 de vida, você pode eliminar este personagem para recuperar toda a vida do aliado ferido.
 
 #### Transferência Vital
-- Sofra 1 de dano. Escolha um aliado dentro do alcance para recuperar 2 de Vida.
+- Sofra 1 de dano. Escolha um aliado dentro do alcance para recuperar 4 de Vida.
 
 #### Regeneração 
 - Recupere 1 de Vida.
@@ -365,13 +359,10 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 ---
 
 # Habilidades em Desenvolvimento e Sem Classe Definida
-- Habilidade que empurra aliado.
 - Habilidade que troca de lugar com outro.
 - Habilidade de teletransporte.
-- Escudo de Bronze: Na primeira vez que sofrer dano em cada rodada, reduza esse dano em 1.
 - Raiz Faminta - Escolha uma peça. Ela sofre 1 de dano.Cure 1 de Vida do Druida.
-- Linha Inquebrável: Aliados adjacentes ao Hoplita não podem ser empurrados ou deslocados por habilidades.
-- Habilidade Normal - Bosque Vivo - Alcance: 3 - Escolha uma casa vazia. Até o início do seu próximo turno, essa casa não pode ser atravessada nem ocupada.
+- Bosque Vivo - Alcance: 3 - Escolha uma casa vazia. Até o início do seu próximo turno, essa casa não pode ser atravessada nem ocupada.
 
 
 
