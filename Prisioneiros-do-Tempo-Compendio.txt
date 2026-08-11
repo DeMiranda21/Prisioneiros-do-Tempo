@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 11/08/2026 00:18 UTC
-Commit: d2c7a1c
+Gerado em: 11/08/2026 00:24 UTC
+Commit: f17f667
 Documentos encontrados: 6
 
 ================================================================================
@@ -610,43 +610,16 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 ### Modo de Jogo 
 - Modo de defender zona; - Somar com a introdução de personagem que empurre.
 - Modo de recuperar item; -  Moeda para baú a ser capturado (ganha um ponto?)
-- Modo Cooperativo;
+- Modo Cooperativo - Sugestão: Jogo em ondas, um jogador é o mestre de jogo (controla os inimigos) o outro é o jogador principal. O primeiro round começa apenas com um inimigo, cada vitória leva o jogador para o próximo round com +1 inimigo. As classes inimigas são selecionadas aleatoriamente, permitido/ou não a repetição de classes. O jogador mantêm a vida entre rounds, as habilidades de uso único se resetam apenas a cada 2 round (mínimo um round sem habilidade). O mestre de jogo não tem os ataques de 1 por partida.
 - Modo de partida com mais de 2 jogadores;
-- Modo de Ondas - Um mestre de jogo, roda o dado para saber qual classe vai controlar, começa com um e cada rodada tem uma peça a mais. O jogador pode fazer qualquer combinação de figuras. Os ataques de 1 por partida resetam a cada duas partidas (uma com, uma sem); O mestre de jogo não tem os ataques de 1 por partida.
-
-### Mapas
-- Usei dama para obstáculos.
-- Mecânicas de portais, moedas, etc não devem ser fixas dos mapas, devem ser modulares. Descobrir uma forma de balancear a implementação; Qual jogador decide onde vai ser?
 
 ### Componentes
 - Peças impressas em 3D;
 - Tabuleiro Modular;
 
 ## Em teste
-### Alterações No Modo de Jogo (Cartas de Objetivo) - Deixar para fazer somente após definir alterações de mapa e condições.
-- Zona de Captura;
-- Captura de Item;
 ### Alterações No Mapa (Cartas de Cenário)
 - Relíquias/Altares - Terminar o turno na casa específica dá algum efeito. Vamos ter apenas altar de cura e de restauração de habilidade única. Vamos implementar futuramente.
-
-
-### Condição da Convergência
-- 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
-- 02. Convergência - Antes do início da partida uma classe é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição com a peça inimiga da mesma classe. Caso uma delas tenha sido eliminada, nada acontece com aquela classe.
-- 03. Calmaria - Sem efeitos.
-- 04. Pressão Constante - Nenhum jogador pode encerrar seu turno sem realizar uma ação, se houver uma ação legal disponível.
-- 05. Caçada - O primeiro jogador a eliminar um personagem recebe 2 pontos em vez de 1.
-- 06. Heróis da Convergência - No início da partida, sorteie uma peça de cada jogador. Enquanto permanecer viva, essa peça concede 2 pontos ao eliminar um inimigo. Quando for eliminada, concede 2 pontos ao adversário.
-- 07. Última Esperança - Quando um jogador perder sua terceira peça, escolha um aliado sobrevivente. Ele recupera toda a Vida.
-- 08. Exércitos Espalhados - Cada jogador deve posicionar pelo menos uma peça em cada metade da Zona Inicial.
-- 09. O traidor - No início da partida, cada jogador escolhe secretamente uma peça inimiga. Após a primeira eliminação da partida, revelem as escolhas. As peças escolhidas passam imediatamente para o controle do adversário.
-- 10. Forças Reservas - No início da partida, cada jogador posiciona apenas três peças. Sempre que uma peça aliada for eliminada, uma das peças restantes entra em jogo em qualquer casa livre da Zona Inicial.
-- 11. Colapso Temporal - Após a primeira eliminação da partida, todas as peças retornam imediatamente às posições em que iniciaram a partida. Vida e habilidades utilizadas não são restauradas.
-
-### Anomalias da Convergência (Alterações do Mapa)
-- Portais da Convergência - Antes do início da partida, cada jogador escolhe secretamente uma casa livre do tabuleiro. Revelem simultaneamente. Essas casas tornam-se Portais da Convergência. Uma peça que terminar seu movimento sobre um Portal pode optar por ser transportada para o outro Portal. O transporte é opcional, se estiver ocupando o portal ele não pode ser usado.
-
-
 
 ## OBSERVAÇÕES DE PLAYTEST
 
@@ -678,31 +651,31 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ## 2. Mapas
 - [X] Criar 6 mapas oficiais - *Falta testar cada modelo*
-- [ ] Balancear todos os mapas.
+- [x] Balancear todos os mapas.
 - [X] Implementar seleção aleatória por dado.
 
 ## 3. Mecânicas Variáveis
 ### Definição
-- [ ] Definir as mecânicas especiais da partida.
-- [ ] Definir quais elementos pertencem aos mapas.
-- [ ] Definir quais elementos serão sorteados antes da partida.
+- [x] Definir as mecânicas especiais da partida.
+- [x] Definir quais elementos pertencem aos mapas.
+- [x] Definir quais elementos serão sorteados antes da partida.
 
 ### Mecânicas em estudo
-- [ ] Portais.
-- [ ] Zona de Captura.
-- [ ] Zona Inicial Mista.
+- [x] Portais.
+- [x] Zona de Captura. (Será feito futuramente)
+- [x] Zona Inicial Mista. (Condição da Convergência)
 
 ### Implementação
-- [ ] Balancear todas as mecânicas.
-- [ ] Implementar seleção aleatória por dado.
+- [x] Balancear todas as mecânicas.
+- [x] Implementar seleção aleatória por dado.
 
 ## 4. Componentes
 - [ ] Finalizar cartas de personagens.
 - [ ] Finalizar cartas de regras.
-- [ ] Finalizar cartas das mecânicas especiais.
+- [ ] Finalizar cartas das condições da convergência.
 - [ ] Finalizar tabuleiro.
 - [ ] Finalizar peças.
-- [ ] Finalizar marcadores.
+- [ ] Finalizar marcadores (confinamento místico, portais, obstáculos).
 - [ ] Preparar arquivos para impressão.
 
 ## 5. Validação
