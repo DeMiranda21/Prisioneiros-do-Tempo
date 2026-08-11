@@ -15,7 +15,16 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ### Componentes
 - Peças impressas em 3D;
-- Tabuleiro Modular;
+- Tabuleiro em MDF, com as seguintes medidas:
+Tabuleiro: 40 × 40 cm
+Grade: 8 × 8
+Casa: 50 × 50 mm
+Base: ~35 mm
+Miniaturas: ~50–65 mm
+- Dados D8 para marcar as vidas;
+- Cartas no padrão de baralho para cada personagem e condições da convergência;
+- As regras deverão ficar em uma carta.
+- Cartas com o layout dos mapas.
 
 ## Em teste
 ### Alterações No Mapa (Cartas de Cenário)
