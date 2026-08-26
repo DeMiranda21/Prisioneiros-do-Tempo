@@ -181,6 +181,26 @@ Personagens focados em uso de habilidades.
 - Stick Charge - Move in a straight line, pushing an enemy unit and dealing 2 dmg. The mov ends if the pushed unit collides with another unit or if the rider runs out of movement.
 - Healing Sprouts - Place 2 berries in free spaces within range. Each berry heals 1 hp when an ally unit enters its space.
 - Oven guard - Prepare a 1 tile Parry Zone around the squire until your next turn. While its active: reduce the firts melee attack received in this zone by 2, or negate the first projectile that crosses this zone.
+- Blessing od hte Anti-Mage - A figure dealt damage by the witch hunter can no be affected by spells for the rest of the game.
+
+# Ideias de Personagens
+
+## Black Knight (5 vida, 4 mov, 3 atq, 1 alc)
+- Voador - Pode se mover sobre obstáculos e casas ocupadas por outras figuras.
+- Leeching Blade - Dá 2 dano para oponente dentro do alcance, se deu hit, cura 1 vida. Não pode ter mais vida que o máximo.
+
+## Beastmaster (6 vida, 3 mov, 2 atq, 1 alc)
+- Quando coloca o beastmaster pode colocar uma das bestas, adjacentes a ele (ortogonalmente)
+- Quando move o beast, também pode mover o animal, quando ataca com o beast, também pode atacar com o animal.
+- Strong Beast (3 vida, 3 mov, 2 atq, 1 alc)
+- Quick Beast (3 vida, 4 mov, 1 atq, 1 alc)
+- Tough Beast (7 vida, 1 mov, 1 atq, 1 alc)
+
+## Green Mage (4 vida, 2 mov, 1 atq, 2 alc)
+- Magic Plant - Place a piece of terrain on an open space dentro do alcance. Pode ser alvo de ataques e habilidades e é destruída se sofrer 2 danos)
+- Infect Seed - Um figura dentro do alcance é infectada. Pelo restante do jogo ela toma 1 dano para cada movimento que fizer ou açao que performar. Quando morrer coloque um terreno no espaço que morreu.
+- Um com a natureza - Se estiver no alcance de um terreno, remova o Green Mage do tabuleiro. Em algum turno posterior, pode voltar de qualquer peça de terreno no tabuleiro. Enquanto estiver fora do jogo o oponente ganha 1 ponto temporário.
+
 
 
 
