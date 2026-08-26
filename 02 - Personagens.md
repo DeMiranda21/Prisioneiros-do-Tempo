@@ -176,6 +176,11 @@ Personagens focados em uso de habilidades.
 - Habilidade de teletransporte.
 - Raiz Faminta - Escolha uma peça. Ela sofre 1 de dano.Cure 1 de Vida do Druida.
 - Bosque Vivo - Alcance: 3 - Escolha uma casa vazia. Até o início do seu próximo turno, essa casa não pode ser atravessada nem ocupada.
+- Reincarnação (druida) - Escolha um aliado derrotado. Ele retorna para o jogo como um esquilo (colocar mais opções de animais). Ele aparece na zona inicial. Somente um esquilo ativo por jogo. (2 vida, 3 mov, 1 atq, 1 alc)
+- Vampiric Strike - Cada vez que der ataque com o ataque básico, cura 1 vida.
+- Stick Charge - Move in a straight line, pushing an enemy unit and dealing 2 dmg. The mov ends if the pushed unit collides with another unit or if the rider runs out of movement.
+- Healing Sprouts - Place 2 berries in free spaces within range. Each berry heals 1 hp when an ally unit enters its space.
+- Oven guard - Prepare a 1 tile Parry Zone around the squire until your next turn. While its active: reduce the firts melee attack received in this zone by 2, or negate the first projectile that crosses this zone.
 
 
 
