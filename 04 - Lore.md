@@ -22,7 +22,7 @@ A Convergência é um local fora do tempo onde personagens de diferentes épocas
   * [Lei VII — A Morte e o Retorno](#07--lei-vii--a-morte-e-o-retorno)
   * [Lei VIII — Do Retorno / Ciclo](#08--lei-viii--do-retorno--ciclo)
 * [Diretrizes de Cosmologia e Desenvolvimento](#diretrizes-de-cosmologia-e-desenvolvimento)
-* [Pontos em Aberto](#pontos-em-aberto)
+
 
 ---
 
@@ -60,7 +60,7 @@ As regras do jogo possuem uma explicação dentro do universo.
 | ----------------------- | ------------------------------------------------------------------------------ |
 | **Turnos**              | Os Condutores disputam influência.                                             |
 | **Limite de movimento** | O vínculo entre Condutor e Prisioneiro possui alcance e intensidade limitados. |
-| **Morte e retorno**     | Nenhum Prisioneiro permanece morto no Destempo.                                |
+| **Morte e retorno**     | Nenhum Prisioneiro permanece morto na Convergência.                                |
 | **Cartas**              | Representam os registros conhecidos sobre cada Prisioneiro.                    |
 | **Manual**              | É o primeiro documento entregue a um Condutor.                                 |
 
@@ -100,7 +100,7 @@ Por isso, cada Lei deve conter:
 * explicações incompletas;
 * acontecimentos que parecem contraditórios;
 * indícios de fenômenos que não conseguem compreender;
-* elementos que um **Condutor**, por estar fora do Destempo, pode interpretar de maneira diferente.
+* elementos que um **Condutor**, por estar fora da Convergência, pode interpretar de maneira diferente.
 
 As Leis serão apresentadas **no verso das cartas**.
 
@@ -112,7 +112,7 @@ As Leis serão apresentadas **no verso das cartas**.
 
 As Leis não representam necessariamente a verdade objetiva sobre a Convergência.
 
-Elas representam o **conjunto de conhecimentos aceitos pelos Prisioneiros do Destempo**.
+Elas representam o **conjunto de conhecimentos aceitos pelos Prisioneiros da Convergência**.
 
 Algumas podem estar incompletas.
 
@@ -140,7 +140,7 @@ O que a Lei significa para alguém que vive dentro da Convergência e conhece ap
 
 ### 2. O que um Condutor perceberia nas entrelinhas?
 
-Que informação adicional pode ser extraída por alguém que observa o Destempo de uma perspectiva externa?
+Que informação adicional pode ser extraída por alguém que observa a Convergência de uma perspectiva externa?
 
 ---
 
@@ -162,7 +162,7 @@ As contradições e lacunas podem fazer parte do próprio mistério da Convergê
 
 # LEIS
 
-Necessário melhorar a informação sobre o condutor, para que o jogador consiga compreender que ele não é o prisioneiro, e sim o que conduz.
+_Necessário melhorar a informação sobre o condutor, para que o jogador consiga compreender que ele não é o prisioneiro, e sim o que conduz._
 ---
 
 ## 01 — Lei I — Da Convergência
@@ -184,21 +184,22 @@ Necessário melhorar a informação sobre o condutor, para que o jogador consiga
 
 ---
 
-## 02 — Lei II — Do Despertar - APRIMORAR
+## 02 — Lei II — Do Condutor
 
-> ## **Todo Prisioneiro desperta ignorante.**
+> ## **Há alguém que nos conduz.**
 >
-> Os que ignoram as Leis raramente sobrevivem ao primeiro Chamado.
+> Ele vê o que não podemos ver e escolhe aquilo que não podemos escolher.
 
 ### Registros
 
-> *“Todos procuram o caminho de volta quando chegam. Os que sobrevivem aprendem a parar de procurar.”*
+> *"Há alguém que nos observa de onde não podemos olhar de volta."*
 
-> *“O homem que acampava ao meu lado dizia ter encontrado o caminho para casa. Na manhã seguinte, não havia mais acampamento, nem homem, nem caminho.”*
+> _"Perguntei como sabia que o inimigo estava atrás da colina. Ele não respondeu."_
 
-> *“Há coisas que ninguém entende, mas que todos aprendem.”*
+> _"Ele vê todos nós ao mesmo tempo. Eu só consigo ver aquilo que está diante de mim."_
 
-> *“Reconhecemos os recém-chegados pelo modo como olham para o céu. Ainda procuram respostas lá.”*
+> _"Ele me mandou parar. Eu não compreendi. Um instante depois, ouvi passos atrás de mim."_
+
 
 ---
 
@@ -219,6 +220,11 @@ Necessário melhorar a informação sobre o condutor, para que o jogador consiga
 > *“Ele me contou o futuro de minha terra. Eu lhe contei o passado da sua.”*
 
 > *“Meu irmão despertou três dias depois de mim. Disse que vinha de uma guerra que terminou há quatrocentos anos.”*
+
+>  *“Todos procuram o caminho de volta quando chegam. Os que sobrevivem aprendem a parar de procurar.”*
+
+>  *“O homem que acampava ao meu lado dizia ter encontrado o caminho para casa. Na manhã seguinte, não havia mais acampamento, nem homem, nem caminho.”*
+
 
 ---
 
@@ -720,65 +726,6 @@ A lore existe para fazer o jogador pensar:
 Não necessariamente para entregar a resposta.
 
 ---
-
-# Pontos em Aberto
-
-Estas são questões do lore que ainda não possuem uma definição definitiva.
-
----
-
-## 1. Qual a razão das batalhas?
-
-### Hipótese atual
-
-Os personagens são controlados pelos **Condutores**, porque os jogadores os controlam.
-
-Porém, os próprios Condutores podem estar sendo controlados por uma força maior.
-
-A ideia não precisa ser explicada diretamente no lore.
-
-Devemos apenas deixar **indícios** dessa possibilidade.
-
-> **Possibilidade:** o jogador acredita ser o Condutor, enquanto o universo sugere que talvez ele também esteja sendo conduzido.
-
----
-
-## 2. Por qual motivo os personagens são selecionados?
-
-**Ainda em aberto.**
-
----
-
-## 3. Como surgiu a Convergência?
-
-### Hipótese atual
-
-Explorar a possibilidade de um:
-
-* loop temporal;
-* paradoxo temporal;
-* evento que causou a ruptura do tempo.
-
-**Ainda em aberto.**
-
----
-
-## 4. Quem são os Condutores?
-
-Questões ainda abertas:
-
-* Todos podem ser Condutores?
-* O que determina quem pode ser um Condutor?
-* Qual é a conexão entre Condutores e Prisioneiros?
-* Por que um Condutor consegue influenciar um determinado Prisioneiro?
-
----
-
-## 5. É possível quebrar o ciclo?
-
-Questão em aberto.
-
-### Possibilidade narrativa
 
 O jogador acredita ser o **Condutor**, enquanto o universo começa a sugerir que talvez **ele também esteja sendo conduzido**.
 
