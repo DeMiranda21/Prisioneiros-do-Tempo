@@ -162,6 +162,7 @@ As contradições e lacunas podem fazer parte do próprio mistério da Convergê
 
 # LEIS
 
+Necessário melhorar a informação sobre o condutor, para que o jogador consiga compreender que ele não é o prisioneiro, e sim o que conduz.
 ---
 
 ## 01 — Lei I — Da Convergência
@@ -183,7 +184,7 @@ As contradições e lacunas podem fazer parte do próprio mistério da Convergê
 
 ---
 
-## 02 — Lei II — Do Despertar
+## 02 — Lei II — Do Despertar - APRIMORAR
 
 > ## **Todo Prisioneiro desperta ignorante.**
 >
@@ -228,6 +229,8 @@ As contradições e lacunas podem fazer parte do próprio mistério da Convergê
 > Não resista. Quando ouvires a voz, tua vontade não será mais somente tua.
 
 ### Registros
+
+> *“Chamamos de Condutor aquele cuja vontade alcança a nossa.”*
 
 > *“Obedece.”*
 
