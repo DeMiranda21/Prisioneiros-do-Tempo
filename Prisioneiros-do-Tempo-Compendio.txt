@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 31/08/2026 21:51 UTC
-Commit: d7c8e49
+Gerado em: 01/09/2026 19:23 UTC
+Commit: b147e89
 Documentos encontrados: 6
 
 ================================================================================
@@ -575,6 +575,7 @@ A Convergência é um local fora do tempo onde personagens de diferentes épocas
   * [Lei VI — A Batalha](#06--lei-vi--a-batalha)
   * [Lei VII — A Morte e o Retorno](#07--lei-vii--a-morte-e-o-retorno)
   * [Lei VIII — Do Retorno / Ciclo](#08--lei-viii--do-retorno--ciclo)
+* [Diretrizes de Cosmologia e Desenvolvimento](#diretrizes-de-cosmologia-e-desenvolvimento)
 * [Pontos em Aberto](#pontos-em-aberto)
 
 ---
@@ -901,6 +902,373 @@ As contradições e lacunas podem fazer parte do próprio mistério da Convergê
 > *“Aprendi a dormir com a espada ao alcance da mão. Não porque temo os inimigos, mas porque temo o Chamado.”*
 
 > *“Lembro do riso dos Veteranos quando comemorei minha primeira batalha. Não imaginava que haveria outra. Depois outra. E outra.”*
+
+---
+
+# Diretrizes de Cosmologia e Desenvolvimento
+
+> **Status:** Diretrizes resultantes do Grill Me sobre a lore. Elas representam decisões aprovadas durante o desenvolvimento do projeto e passam a integrar este documento a partir deste commit.
+
+## 1. Função da Lore no Projeto
+
+A lore de **Prisioneiros do Tempo** existe para agregar profundidade, identidade e atmosfera ao jogo de tabuleiro.
+
+Ela **não é o foco principal do projeto**.
+
+O foco principal permanece:
+
+* diversão;
+* simplicidade;
+* clareza;
+* estratégia;
+* identidade dos personagens;
+* variedade;
+* rejogabilidade;
+* equilíbrio.
+
+A lore deve tornar a experiência mais interessante sem exigir que o jogador conheça ou compreenda toda a cosmologia do universo.
+
+> **Princípio central:** a lore deve enriquecer o jogo, não competir com ele.
+
+Não é necessário responder todas as perguntas sobre o universo. Questões que não tenham utilidade para o jogo podem permanecer deliberadamente abertas.
+
+---
+
+## 2. Verdade Objetiva e Conhecimento dos Personagens
+
+Existe uma realidade objetiva por trás da Convergência.
+
+Entretanto, **nem tudo precisa ser revelado ao jogador ou aos personagens**.
+
+Devem ser considerados dois níveis distintos:
+
+### Verdade objetiva
+
+Aquilo que realmente existe ou acontece no universo.
+
+### Conhecimento dos personagens
+
+Aquilo que os Prisioneiros e Condutores conseguem perceber, interpretar ou acreditar.
+
+Essas duas coisas não precisam coincidir.
+
+Uma informação pode ser verdadeira sem jamais ser explicitamente revelada.
+
+---
+
+## 3. Natureza da Convergência
+
+A Convergência não deve ser tratada como um personagem ou vilão consciente.
+
+Ela funciona **quase como uma força da natureza**.
+
+Ela:
+
+* possui leis próprias;
+* produz efeitos;
+* determina certas condições da existência dos Prisioneiros;
+* mantém o funcionamento dos Ciclos;
+
+mas **não precisa possuir vontade própria ou um objetivo consciente**.
+
+A Convergência não necessariamente “quer” alguma coisa dos Prisioneiros.
+
+> **A Convergência possui funcionamento. Deus e o Diabo possuem intenção.**
+
+A Convergência é o ambiente e a metafísica em que os acontecimentos ocorrem, e não necessariamente a entidade responsável por eles.
+
+---
+
+## 4. Os Prisioneiros
+
+Os Prisioneiros são pessoas reais, retiradas de diferentes épocas e reunidas na Convergência.
+
+Eles:
+
+* possuem identidade própria;
+* possuem vontade própria;
+* não compreendem completamente onde estão;
+* não sabem necessariamente por que foram escolhidos;
+* respondem ao Chamado;
+* participam dos Ciclos;
+* podem morrer;
+* retornam posteriormente;
+* podem carregar fragmentos de experiências anteriores.
+
+Os Prisioneiros não possuem conhecimento completo sobre a realidade em que vivem.
+
+---
+
+## 5. O Retorno
+
+O retorno dos Prisioneiros possui duas dimensões:
+
+**1. Ciclo temporal:** o loop temporal explica como a existência continua se repetindo.
+
+**2. Leis da Convergência:** as próprias regras da Convergência determinam que a morte não seja definitiva.
+
+Portanto, o retorno não precisa ser apresentado como uma ressurreição divina.
+
+É uma característica da realidade em que os Prisioneiros estão presos.
+
+Os Prisioneiros continuam sendo eles mesmos após retornar, mas o retorno não precisa ser perfeitamente neutro.
+
+Podem existir:
+
+* sensações estranhas;
+* déjà-vus;
+* familiaridade inexplicável;
+* sonhos;
+* lembranças fragmentadas;
+* sensação de já ter vivido determinada situação;
+* lembranças que parecem pertencer a batalhas anteriores.
+
+Esses elementos são principalmente ferramentas narrativas, e não necessariamente novas mecânicas.
+
+As memórias de mortes ou acontecimentos anteriores podem ser apenas fragmentos. O Prisioneiro não precisa lembrar claramente quando morreu, como morreu, quem o matou ou em qual batalha aconteceu.
+
+---
+
+## 6. Os Condutores
+
+Os Condutores são a ponte entre o jogador e os Prisioneiros.
+
+A relação possui três níveis:
+
+**Deus / Diabo**  
+↓  
+**Condutor**  
+↓  
+**Prisioneiro**
+
+O Condutor:
+
+* possui vontade própria;
+* influencia os Prisioneiros;
+* pode ser influenciado espiritualmente;
+* não é simplesmente uma marionete;
+* pode resistir às influências;
+* não necessariamente compreende tudo o que está acontecendo.
+
+Existe também uma possibilidade narrativa deliberada:
+
+> O jogador acredita ser o Condutor, mas pode haver indícios de que ele próprio também esteja sendo conduzido.
+
+Essa percepção deve permanecer como **suspeita**, e não como revelação explícita obrigatória.
+
+---
+
+## 7. Deus e o Diabo
+
+Deus e o Diabo **existem objetivamente** dentro da cosmologia do universo.
+
+Eles não são apenas interpretações dos personagens.
+
+Entretanto, sua atuação não precisa ser apresentada didaticamente ao jogador.
+
+A influência espiritual ocorre principalmente através dos seres humanos, especialmente dos Condutores.
+
+Deus e o Diabo possuem **formas diferentes de influência** e não devem ser apresentados simplesmente como dois poderes equivalentes disputando uma partida cósmica.
+
+Deus pode orientar, inspirar, convencer e conduzir.
+
+O Diabo pode agir por meio de tentação, engano, distorção, acusação e exploração da natureza caída.
+
+---
+
+## 8. Natureza Caída
+
+A **natureza caída** é uma condição humana universal dentro da direção espiritual do universo, não exclusiva dos Condutores.
+
+Ela não precisa ser explicada de maneira teológica ou didática dentro do jogo.
+
+Pode ajudar a explicar fenômenos humanos como:
+
+* tentação;
+* conflito;
+* orgulho;
+* medo;
+* violência;
+* egoísmo;
+* resistência ao que é correto.
+
+Os personagens não precisam saber explicar esses fenômenos em termos teológicos.
+
+---
+
+## 9. Influência Espiritual e Livre-Arbítrio
+
+O Condutor pode ser influenciado espiritualmente, mas não deve ser reduzido a um fantoche.
+
+> **Influenciar não significa necessariamente controlar.**
+
+O Condutor continua sendo um agente com vontade própria.
+
+A extensão exata da responsabilidade espiritual do Condutor não precisa ser definida neste momento.
+
+Também não é necessário criar uma regra metafísica explicando exatamente quanto de responsabilidade pertence a cada agente.
+
+---
+
+## 10. Influência sobre os Prisioneiros
+
+Deus e o Diabo **não influenciam diretamente os Prisioneiros**.
+
+A cadeia principal permanece:
+
+> **Deus / Diabo → Condutor → Prisioneiro**
+
+Os Prisioneiros continuam possuindo vontade própria.
+
+Sua natureza, personalidade, experiências e escolhas continuam sendo deles.
+
+---
+
+## 11. Propósito das Batalhas
+
+As batalhas **possuem um propósito objetivo**.
+
+Porém:
+
+* os Prisioneiros não conhecem esse propósito;
+* os Condutores podem não conhecê-lo;
+* o jogador não precisa receber uma explicação completa.
+
+O propósito das batalhas possui relação com a dimensão espiritual, mas **indiretamente**.
+
+As batalhas não devem ser tratadas como uma representação literal e simplificada de “Deus contra o Diabo”.
+
+O conflito espiritual existe em uma camada mais profunda.
+
+---
+
+## 12. Por que os Prisioneiros foram escolhidos?
+
+Essa questão permanece deliberadamente aberta.
+
+Não está definido:
+
+* quem escolhe os Prisioneiros;
+* qual critério determina sua escolha;
+* se existe um critério;
+* por que determinados indivíduos são levados à Convergência.
+
+Não devemos criar uma explicação apenas para preencher essa lacuna.
+
+---
+
+## 13. Existe uma Saída?
+
+Não está definido.
+
+A direção escolhida é:
+
+> **Talvez exista uma saída da Convergência, mas não sabemos.**
+
+Não devemos afirmar atualmente que existe ou não existe uma saída, nem que quebrar o ciclo é possível ou impossível.
+
+Essa questão permanece como um dos grandes mistérios do universo.
+
+Diferentes Prisioneiros podem possuir crenças diferentes sobre uma possível saída.
+
+Alguns podem imaginar:
+
+* retornar à própria época;
+* morrer definitivamente;
+* simplesmente deixar de ser Prisioneiros;
+* encontrar outro mundo;
+* descobrir algo completamente diferente.
+
+Nenhuma dessas crenças deve ser automaticamente apresentada como verdade.
+
+---
+
+## 14. Busca pela Verdade
+
+Pode haver vários Prisioneiros que acreditam ter descoberto a verdade sobre a Convergência.
+
+Entretanto, suas conclusões podem contradizer umas às outras.
+
+Não deve existir necessariamente um único personagem que funcione como “aquele que sabe tudo”.
+
+É preferível trabalhar com:
+
+* teorias;
+* registros;
+* testemunhos;
+* descobertas;
+* interpretações;
+* contradições;
+* pistas;
+* informações incompletas.
+
+Um registro pode afirmar que determinada teoria é verdadeira. Outro pode afirmar que ela está errada. Um terceiro pode apresentar uma evidência que coloque os dois em dúvida.
+
+O jogador não precisa receber uma confirmação imediata.
+
+---
+
+## 15. Mistério
+
+O mistério da lore não deve funcionar como um quebra-cabeça que o jogador necessariamente precisa solucionar.
+
+Sua principal função é:
+
+* criar curiosidade;
+* aumentar a atmosfera;
+* dar profundidade aos personagens;
+* fazer determinadas cartas terem mais significado;
+* criar sensação de mundo maior;
+* recompensar jogadores interessados em investigar.
+
+A estrutura ideal é de **investigação progressiva e atmosfera**, sem obrigar o jogador a acompanhar uma história complexa.
+
+---
+
+## 16. Limite da Lore
+
+> **Não definir uma resposta apenas porque uma pergunta existe.**
+
+Uma questão só precisa ser resolvida quando houver uma necessidade concreta de:
+
+* uma regra;
+* uma mecânica;
+* uma carta;
+* um personagem;
+* um mapa;
+* uma campanha;
+* uma decisão narrativa relevante.
+
+Se a ausência da resposta não prejudicar o jogo, ela pode permanecer aberta.
+
+---
+
+## 17. Princípio Final
+
+A lore de **Prisioneiros do Tempo** deve funcionar como uma segunda camada da experiência.
+
+O jogador que não se interessa por lore deve conseguir jogar normalmente.
+
+O jogador que prestar atenção encontrará:
+
+* mistérios;
+* contradições;
+* pistas;
+* personagens com histórias;
+* registros;
+* referências espirituais;
+* perguntas sem resposta;
+* uma sensação de que existe algo maior por trás das batalhas.
+
+Mas o jogo continuará sendo, antes de tudo:
+
+> **um jogo de tabuleiro simples, estratégico, divertido e rejogável.**
+
+A lore existe para fazer o jogador pensar:
+
+> **“Talvez exista algo maior acontecendo aqui.”**
+
+Não necessariamente para entregar a resposta.
 
 ---
 
