@@ -14,7 +14,7 @@ A Convergência é um local fora do tempo onde personagens de diferentes épocas
 
   * [Filosofia das Leis](#filosofia-das-leis)
   * [Lei I — Da Convergência](#01--lei-i--da-convergência)
-  * [Lei II — Do Despertar](#02--lei-ii--do-despertar)
+  * [Lei II — Do Condutor](#02--lei-ii--do-despertar)
   * [Lei III — Das Eras](#03--lei-iii--das-eras)
   * [Lei IV — Do Chamado](#04--lei-iv--do-chamado)
   * [Lei V — O Vínculo](#05--lei-v--o-vínculo)
