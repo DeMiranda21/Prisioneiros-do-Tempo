@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 01/09/2026 22:11 UTC
-Commit: b162b7e
+Gerado em: 02/09/2026 00:54 UTC
+Commit: 708a213
 Documentos encontrados: 6
 
 ================================================================================
@@ -71,12 +71,22 @@ ARQUIVO: 01 - Regras e Mecânicas.md
 
 # Regras e Mecânicas
 
-## Objetivo
+## Texto - Carta de Regras:
 
-O objetivo da partida é:
+Cada jogador monta uma equipe com 5 peças (obrigatoriamente): 1 Tanque, 1 DPS, 1 Atirador, 1 Mago e
+1 Suporte. Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados.
+Cada jogador posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o
+primeiro turno.
 
-- Eliminar todas as peças do adversário ou;
-- Alcançar **4 pontos**, obtidos ao eliminar peças inimigas.
+Em seu turno, você pode mover uma peça e realizar uma ação — Ataque ou Habilidade. Após uma ação, a
+peça não pode mais se mover. As peças movem-se e atacam horizontal ou verticalmente. Elas atacam em
+linha reta até seu valor de Alcance. As peças não podem atravessar, ocupar o espaço ou atacar
+através de outra peça ou obstáculo.
+
+Quando uma peça é atacada, ela perde Vida igual ao valor de Ataque da peça atacante. Quando uma peça
+fica com 0 de Vida, ela morre imediatamente e é removida do tabuleiro. Quando uma peça do oponente
+morre, você ganha 1 ponto. Se ela for revivida, você perde 1 ponto. Vence quem alcançar 4 pontos ou
+eliminar todas as peças inimigas.
 
 ---
 
