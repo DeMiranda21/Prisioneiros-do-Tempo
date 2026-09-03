@@ -40,7 +40,6 @@ A Convergência captura personagens de diferentes épocas.
 
 **Função narrativa:**
 
-* Justificar a existência de várias classes.
 * Permitir a introdução de personagens de diferentes períodos históricos.
 * Criar encontros entre personagens que jamais poderiam ter coexistido.
 
@@ -73,16 +72,6 @@ Os Prisioneiros acreditam lutar por **escolha própria**.
 **Não os desminta.**
 
 A linguagem utilizada nos materiais do jogo deve preservar essa percepção.
-
-### Linguagem
-
-Em vez de:
-
-> Cada jogador escolhe duas cartas.
-
-Usar:
-
-> Cada Condutor responde ao Chamado de dois Prisioneiros.
 
 ---
 
