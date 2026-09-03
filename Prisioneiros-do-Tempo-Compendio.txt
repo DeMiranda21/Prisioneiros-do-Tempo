@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 03/09/2026 02:17 UTC
-Commit: fba213f
+Gerado em: 03/09/2026 19:17 UTC
+Commit: 6d60905
 Documentos encontrados: 6
 
 ================================================================================
@@ -196,7 +196,7 @@ Caso essa peça seja posteriormente ressuscitada, esse ponto é perdido.
 
 ## Condições da Convergência
 - 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
-- 02. Convergência - Antes do início da partida uma classe é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição com a peça inimiga da mesma classe. Caso uma delas tenha sido eliminada, nada acontece com aquela classe.
+- 02. Convergência - Antes do início da partida um personagem de cada time é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição. Caso uma delas tenha sido eliminada, nada acontece.
 - 03. Calmaria - Sem efeitos.
 - 04. Pressão Constante - Nenhum jogador pode encerrar seu turno sem realizar uma ação, se houver uma ação legal disponível.
 - 05. Caçada - O primeiro jogador a eliminar um personagem recebe 2 pontos em vez de 1.
