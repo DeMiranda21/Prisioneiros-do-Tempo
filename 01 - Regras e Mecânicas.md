@@ -52,7 +52,7 @@ Para o protótipo são utilizados:
 
 ## Preparação
 
-1. Cada jogador seleciona a composição do seu time (cada time deve conter obrigatoriamente: um tanque, um DPS, um atirador, um mago e um suporte);
+1. Cada jogador seleciona a composição do seu time;
 2. Jogue o dado para selecionar aleatoriamente um dos seis mapas (um número para cada mapa).
 3. Posicione os obstáculos conforme o mapa escolhido.
 4. Selecione uma condição da convergência de forma aleatória.
