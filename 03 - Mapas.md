@@ -118,8 +118,8 @@ Dois blocos de obstáculos simulam fortalezas separadas.
 5 | . . . . . . . .
 4 | . . . . . . . . 
 3 | . X X . . X X .
-2 | A A X . . X A A
-1 | A A . . . . A A
+2 | B B X . . X B B
+1 | B B . . . . B B
 ```
 
 ---
@@ -134,12 +134,12 @@ Pode colocar na zona inicial.
 ```text
     A B C D E F G H
 
-8 | A A X A X A A A
-7 | A X A A A X A A
-6 | . . . X . . X .
-5 | X . . . . . . X
-4 | X . . . . . . X
-3 | . . X . X . . .
-2 | B X B B B X B B
-1 | B B X B X B B B
+8 | A A A A A A A A
+7 | A A A A A A A A
+6 | . . . . . . . .
+5 | . . . . . . . .
+4 | . . . . . . . .
+3 | . . . . . . . .
+2 | B B B B B B B B
+1 | B B B B B B B B
 ```
