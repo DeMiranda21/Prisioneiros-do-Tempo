@@ -6,7 +6,7 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ### Classes
 - Na versão atual não vamos mais utilizar classes.
-- 
+
 ### Modo de Jogo 
 - Modo de defender zona; - Somar com a introdução de personagem que empurre.
 - Modo de recuperar item; -  Moeda para baú a ser capturado (ganha um ponto?)
@@ -26,9 +26,9 @@ Miniaturas:
 - As regras deverão ficar em uma carta.
 - Cartas com o layout dos mapas.
 
-### Alterações No Mapa (Cartas de Cenário)
+### Alterações de Mecânica
 - Relíquias/Altares - Terminar o turno na casa específica dá algum efeito. Vamos ter apenas altar de cura e de restauração de habilidade única. Vamos implementar futuramente.
-- 
+- Anomalia - Mapas não têm bordas, as peças ao chegar na extremidade podem continuar, aparecendo na extremidade contrária.
 
 ## OBSERVAÇÕES DE PLAYTEST
 
