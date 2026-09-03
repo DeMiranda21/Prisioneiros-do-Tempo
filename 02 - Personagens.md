@@ -116,7 +116,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 #### Caçador Nato *(Passiva)* 
 - O Guerreiro Tupi pode realizar ataques normais na diagonal.
 
-## Necromante
+## Arcanista
 
 ### Atributos
 
@@ -133,10 +133,10 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Escolha uma casa dentro do alcance. Todas as peças nessa casa e nas casas ortogonalmente adjacentes sofrem **2 de dano**.
 
 #### Maldição *(Ação Especial)* 
-- O Mago Negro sofre **X de dano**. Escolha um inimigo dentro do alcance. Esse inimigo sofre **X + 1 de dano**.
+- O Arcanista sofre **X de dano**. Escolha um inimigo dentro do alcance. Esse inimigo sofre **X + 1 de dano**.
 
 #### Animar Morto *(Ação Especial)* 
-- O Mago Negro sofre **1 de dano**. Ressuscite uma peça aliada destruída em uma casa livre da Zona Inicial. Ela retorna com **2 pontos de vida**.
+- O Arcanista sofre **1 de dano**. Ressuscite uma peça aliada destruída em uma casa livre da Zona Inicial. Ela retorna com **2 pontos de vida**.
 
 ## Druida
 
