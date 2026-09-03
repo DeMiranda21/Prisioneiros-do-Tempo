@@ -81,7 +81,7 @@ Após realizar uma ação, a peça não pode mais se mover naquele turno.
 
 ## Movimento
 
-- As peças movem-se apenas na horizontal.
+- As peças movem-se horizontla ou verticalmente.
 - Cada personagem possui um valor de Movimento.
 - Movimentos diagonais somente quando uma habilidade permitir.
 - Não é permitido atravessar peças.
