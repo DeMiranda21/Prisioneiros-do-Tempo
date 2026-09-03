@@ -35,7 +35,7 @@ Cada peça atravessada sofre **2 de dano**.
 ### Habilidades
 
 #### Muralha de Escudos *(Passiva)*
-- Enquanto o Hoplita Grego estiver adjacente a pelo menos um aliado, ele e todos os aliados ortogonalmente adjacentes a ele recebem -1 de dano.
+- Enquanto o Hoplita estiver adjacente a pelo menos um aliado, ele e todos os aliados ortogonalmente adjacentes a ele recebem -1 de dano.
 
 ---
 
@@ -52,8 +52,8 @@ Cada peça atravessada sofre **2 de dano**.
 
 ### Habilidades
 
-#### Medo do Sobrenatural *(Passiva)* 
-- O Bárbaro sofre **+1 de dano** sempre que recebe dano de um **Mago**.
+#### Berserker *(Passiva)*
+- Enquanto estiver com 2 ou menos de Vida, o Bárbaro causa +1 de dano em seus ataques.
 
 ## Samurai
 
@@ -204,7 +204,7 @@ uma peça entrar em sua casa. A semente é removida após ser ativada.
 - Dá 2 dano para oponente dentro do alcance, se deu hit, cura 1 vida. Não pode ter mais vida que o máximo.
 
 #### Último Suspiro *(Passiva)*
-- Quando o Mártir for eliminado, o inimigo que o eliminou sofre 1 de dano.
+- Quando o Mártir for eliminado, o inimigo que o eliminou sofre 2 de dano.
 
 
 ## Mestre das Feras
