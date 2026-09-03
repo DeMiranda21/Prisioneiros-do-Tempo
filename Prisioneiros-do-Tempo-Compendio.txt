@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 03/09/2026 20:07 UTC
-Commit: 2d6bd11
+Gerado em: 03/09/2026 20:13 UTC
+Commit: c72c9cc
 Documentos encontrados: 6
 
 ================================================================================
@@ -1388,8 +1388,8 @@ ARQUIVO: 05 - Backlog.md
 Este documento reúne ideias, mecânicas experimentais e sugestões ainda não incorporadas oficialmente ao jogo. Ainda, registra testes e ideias aprovadas ou não.
 
 ### Classes
-- Verificar forma prática de fazer o balanceamento de classes usando agentes AI.
-
+- Na versão atual não vamos mais utilizar classes.
+- 
 ### Modo de Jogo 
 - Modo de defender zona; - Somar com a introdução de personagem que empurre.
 - Modo de recuperar item; -  Moeda para baú a ser capturado (ganha um ponto?)
@@ -1398,20 +1398,20 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 
 ### Componentes
 - Peças impressas em 3D;
-- Tabuleiro em MDF, com as seguintes medidas:
-Tabuleiro: 40 × 40 cm
+- Tabuleiro em MDF, com as provaveis medidas:
+Tabuleiro: 34 × 34 cm
 Grade: 8 × 8
-Casa: 50 × 50 mm
-Base: ~35 mm
-Miniaturas: ~50–65 mm
-- Dados D8 para marcar as vidas;
+Casa: 40 × 40 mm
+Base: 
+Miniaturas:
+- Dados para marcar as vidas;
 - Cartas no padrão de baralho para cada personagem e condições da convergência;
 - As regras deverão ficar em uma carta.
 - Cartas com o layout dos mapas.
 
-## Em teste
 ### Alterações No Mapa (Cartas de Cenário)
 - Relíquias/Altares - Terminar o turno na casa específica dá algum efeito. Vamos ter apenas altar de cura e de restauração de habilidade única. Vamos implementar futuramente.
+- 
 
 ## OBSERVAÇÕES DE PLAYTEST
 
@@ -1433,13 +1433,7 @@ Miniaturas: ~50–65 mm
 - Garantir alta replayabilidade.
 
 ## 1. Personagens
-- [x] Criar 10 personagens jogáveis.
-- [x] 2º Tanque
-- [x] 2º DPS
-- [x] 2º Atirador
-- [x] 2º Mago
-- [x] 2º Suporte
-- [ ] Balancear todos os personagens.
+- Já criados 11 personagens, trabalhar no balanceamento mediante playtests.
 
 ## 2. Mapas
 - [X] Criar 6 mapas oficiais - *Falta testar cada modelo*
@@ -1467,7 +1461,7 @@ Miniaturas: ~50–65 mm
 - [ ] Finalizar cartas das condições da convergência.
 - [ ] Finalizar tabuleiro.
 - [ ] Finalizar peças.
-- [ ] Finalizar marcadores (confinamento místico, portais, obstáculos).
+- [ ] Finalizar marcadores (confinamento místico, portais, obstáculos, verificar quais habilidades ainda precisam de marcadores).
 - [ ] Preparar arquivos para impressão.
 
 ## 5. Validação
