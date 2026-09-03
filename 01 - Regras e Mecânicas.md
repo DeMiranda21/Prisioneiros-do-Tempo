@@ -2,8 +2,7 @@
 
 ## Texto Comum - Carta de Regras:
 
-Cada jogador monta uma equipe com 5 peças (obrigatoriamente): 1 Tanque, 1 DPS, 1 Atirador, 1 Mago e
-1 Suporte. Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados.
+Cada jogador monta uma equipe com 5 peças. Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados.
 Cada jogador posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o
 primeiro turno.
 
@@ -23,7 +22,7 @@ CARTA DE CONDUÇÃO
 
 Registro deixado pelo Condutor [trecho desgastado/ilegível]
 
-Selecione 5 Prisioneiros para conduzir: 1 Tanque, 1 DPS, 1 Atirador, 1 Mago e 1 Suporte.
+Selecione 5 Prisioneiros para conduzir.
 
 Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados. Cada jogador
 posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o primeiro
