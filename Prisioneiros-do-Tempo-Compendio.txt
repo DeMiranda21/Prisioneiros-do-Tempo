@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 03/09/2026 19:48 UTC
-Commit: ccb39e2
+Gerado em: 03/09/2026 20:05 UTC
+Commit: 1ef5f75
 Documentos encontrados: 6
 
 ================================================================================
@@ -152,7 +152,7 @@ Após realizar uma ação, a peça não pode mais se mover naquele turno.
 
 ## Movimento
 
-- As peças movem-se apenas na horizontal.
+- As peças movem-se horizontla ou verticalmente.
 - Cada personagem possui um valor de Movimento.
 - Movimentos diagonais somente quando uma habilidade permitir.
 - Não é permitido atravessar peças.
