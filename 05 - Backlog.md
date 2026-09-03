@@ -10,7 +10,7 @@ Este documento reúne ideias, mecânicas experimentais e sugestões ainda não i
 ### Modo de Jogo 
 - Modo de defender zona; - Somar com a introdução de personagem que empurre.
 - Modo de recuperar item; -  Moeda para baú a ser capturado (ganha um ponto?)
-- Modo Cooperativo - Sugestão: Jogo em ondas, um jogador é o mestre de jogo (controla os inimigos) o outro é o jogador principal. O primeiro round começa apenas com um inimigo, cada vitória leva o jogador para o próximo round com +1 inimigo. As classes inimigas são selecionadas aleatoriamente, permitido/ou não a repetição de classes. O jogador mantêm a vida entre rounds, as habilidades de uso único se resetam apenas a cada 2 round (mínimo um round sem habilidade). O mestre de jogo não tem os ataques de 1 por partida.
+- Modo Cooperativo - Sugestão: Jogo em ondas, um jogador é o mestre de jogo (controla os inimigos) o outro é o jogador principal. O primeiro round começa apenas com um inimigo, cada vitória leva o jogador para o próximo round com +1 inimigo. Os personagens inimigos são selecionadas aleatoriamente. O jogador mantêm a vida entre rounds, as habilidades de uso único se resetam apenas a cada 2 round (mínimo um round sem habilidade). O mestre de jogo não tem os ataques de 1 por partida.
 - Modo de partida com mais de 2 jogadores;
 
 ### Componentes
@@ -65,7 +65,7 @@ Miniaturas:
 
 ### Mecânicas em estudo
 - [x] Portais.
-- [x] Zona de Captura. (Será feito futuramente)
+- [ ] Zona de Captura. (Será feito futuramente)
 - [x] Zona Inicial Mista. (Condição da Convergência)
 
 ### Implementação
