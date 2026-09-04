@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 04/09/2026 01:16 UTC
-Commit: 93b7d02
+Gerado em: 04/09/2026 16:21 UTC
+Commit: 7638c4d
 Documentos encontrados: 6
 
 ================================================================================
@@ -73,7 +73,7 @@ ARQUIVO: 01 - Regras e Mecânicas.md
 
 ## Texto Comum - Carta de Regras:
 
-Cada jogador monta uma equipe com 5 peças. Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados.
+Cada jogador monta uma equipe com 5 peças. Sorteie o Mapa, a Condição da Convergência e quem vai iniciar usando dados.
 Cada jogador posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o
 primeiro turno.
 
@@ -95,7 +95,7 @@ Registro deixado pelo Condutor [trecho desgastado/ilegível]
 
 Selecione 5 Prisioneiros para conduzir.
 
-Sorteie o Mapa, a Condição da Convergência, a Anomalia e quem vai iniciar usando dados. Cada jogador
+Sorteie o Mapa, a Condição da Convergência e quem vai iniciar usando dados. Cada jogador
 posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o primeiro
 turno.
 
@@ -123,14 +123,13 @@ Para o protótipo são utilizados:
 
 ## Preparação
 
-1. Cada jogador seleciona a composição do seu time;
+1. Cada jogador seleciona a composição do seu time.
 2. Jogue o dado para selecionar aleatoriamente um dos seis mapas (um número para cada mapa).
 3. Posicione os obstáculos conforme o mapa escolhido.
-4. Selecione uma condição da convergência de forma aleatória.
-5. Selecione se haverá anomalia de forma aleatória.
-6. Decida aleatoriamente quem inicia a partida.
-7. Os jogadores alternam posicionando suas peças na Zona Inicial.
-8. O jogador que posicionou a primeira peça realiza o primeiro turno.
+4. Sorteie se haverá uma Condição da Convergência (dado simples: 1–4 = sem condição; 5–6 = Condição da Convergência). Em caso de condição, embaralhe as cartas e revele uma carta aleatoriamente.
+5. Decida aleatoriamente quem inicia a partida.
+6. Os jogadores alternam o posicionamento de suas peças na Zona Inicial.
+7. O jogador que posicionou a primeira peça realiza o primeiro turno.
 
 ---
 
@@ -196,14 +195,18 @@ Caso essa peça seja posteriormente ressuscitada, esse ponto é perdido.
 
 ## Condições da Convergência
 - 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
-- 02. Convergência - Antes do início da partida um personagem de cada time é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição. Caso uma delas tenha sido eliminada, nada acontece.
-- 03. Calmaria - Sem efeitos.
+- 02. Convergência - Antes do início da partida um personagem de cada time é selecionada aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição. Caso uma delas tenha
+sido eliminada, nada acontece.
+- 03. Portais da Convergência - Antes do início da partida, cada jogador escolhe secretamente uma casa livre do tabuleiro. Os jogadores revelam suas escolhas simultaneamente. Essas casas tornam-se os Portais da
+Convergência. Uma peça que terminar seu movimento sobre um Portal pode optar por ser transportada para o outro Portal. O transporte é opcional. Se o Portal de destino estiver ocupado, ele não poderá ser utilizado. A cada
+eliminação, os jogadores reposicionam os Portais, seguindo as mesmas regras utilizadas no início da partida.
 - 04. Pressão Constante - Nenhum jogador pode encerrar seu turno sem realizar uma ação, se houver uma ação legal disponível.
 - 05. Caçada - O primeiro jogador a eliminar um personagem recebe 2 pontos em vez de 1.
 - 06. Heróis da Convergência - No início da partida, sorteie uma peça de cada jogador. Enquanto permanecer viva, essa peça concede 2 pontos ao eliminar um inimigo. Quando for eliminada, concede 2 pontos ao adversário.
 - 07. Última Esperança - Quando um jogador perder sua terceira peça, escolha um aliado sobrevivente. Ele recupera toda a Vida.
 - 08. Exércitos Espalhados - Cada jogador deve posicionar pelo menos uma peça em cada metade da Zona Inicial.
-- 09. O traidor - No início da partida, cada jogador escolhe secretamente uma peça inimiga. Após a primeira eliminação da partida, revelem as escolhas. As peças escolhidas passam imediatamente para o controle do adversário.
+- 09. O traidor - No início da partida, cada jogador escolhe secretamente uma peça inimiga. Após a primeira eliminação da partida, revelem as escolhas. As peças escolhidas passam imediatamente para o controle do
+adversário.
 - 10. Forças Reservas - No início da partida, cada jogador posiciona apenas três peças. Sempre que uma peça aliada for eliminada, uma das peças restantes entra em jogo em qualquer casa livre da Zona Inicial.
 - 11. Colapso Temporal - Após a primeira eliminação da partida, todas as peças retornam imediatamente às posições em que iniciaram a partida. Vida e habilidades utilizadas não são restauradas.
 
