@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 04/09/2026 16:52 UTC
-Commit: a7e8800
+Gerado em: 06/09/2026 21:36 UTC
+Commit: e419bfb
 Documentos encontrados: 6
 
 ================================================================================
@@ -329,7 +329,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Após realizar um ataque normal, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
 
 #### Caçador Nato *(Passiva)* 
-- O Guerreiro Tupi pode realizar ataques normais na diagonal.
+- O Guerreiro Tupi pode mover-se e realizar ataques normais na diagonal.
 
 ## Arcanista
 
