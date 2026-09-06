@@ -114,7 +114,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 - Após realizar um ataque normal, o Guerreiro Tupi pode mover 1 casa, inclusive na diagonal.
 
 #### Caçador Nato *(Passiva)* 
-- O Guerreiro Tupi pode realizar ataques normais na diagonal.
+- O Guerreiro Tupi pode mover-se e realizar ataques normais na diagonal.
 
 ## Arcanista
 
