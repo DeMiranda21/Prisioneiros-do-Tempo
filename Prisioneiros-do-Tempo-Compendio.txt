@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 07/09/2026 21:45 UTC
-Commit: c92e6ba
+Gerado em: 07/09/2026 22:16 UTC
+Commit: 1c4c98f
 Documentos encontrados: 7
 
 ================================================================================
@@ -1543,9 +1543,9 @@ Miniaturas:
 
 ## 5.3 Outros Componentes
 
-- [ ] Produzir marcadores provisórios necessários.
+- [x] Produzir marcadores provisórios necessários.
 - [x] Produzir obstáculos provisórios.
-- [ ] Produzir Portais provisórios.
+- [x] Produzir Portais provisórios.
 - [ ] Montar conjunto completo para realização dos playtests.
 
 ---
