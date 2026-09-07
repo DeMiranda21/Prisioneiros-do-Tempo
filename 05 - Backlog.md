@@ -97,10 +97,8 @@ Miniaturas:
 
 - [ ] Realizar partidas de teste.
 - [ ] Registrar problemas encontrados.
-- [ ] Registrar duração das partidas.
 - [ ] Avaliar desempenho dos personagens.
 - [ ] Avaliar impacto das Condições da Convergência.
-- [ ] Avaliar impacto das Anomalias.
 - [ ] Corrigir problemas encontrados.
 - [ ] Validar o balanceamento geral.
 - [ ] Validar a diversão.
@@ -165,7 +163,7 @@ Miniaturas:
 
 ## 5.1 Cartas
 
-- [ ] Criar cartas provisórias em preto e branco.
+- [x] Criar cartas provisórias em preto e branco.
 - [ ] Imprimir cartas dos personagens.
 - [ ] Imprimir carta de regras.
 - [ ] Imprimir cartas das Condições da Convergência.
@@ -175,8 +173,8 @@ Miniaturas:
 
 ## 5.2 Personagens
 
-- [ ] Criar representações provisórias dos 11 personagens.
-- [ ] Preparar modelos para impressão e dobra.
+- [x] Criar representações provisórias dos 11 personagens.
+- [x] Preparar modelos para impressão em token.
 - [ ] Imprimir personagens provisórios.
 - [ ] Testar tamanho das peças.
 - [ ] Testar estabilidade das peças no tabuleiro.
@@ -184,7 +182,7 @@ Miniaturas:
 ## 5.3 Outros Componentes
 
 - [ ] Produzir marcadores provisórios necessários.
-- [ ] Produzir obstáculos provisórios.
+- [x] Produzir obstáculos provisórios.
 - [ ] Produzir Portais provisórios.
 - [ ] Montar conjunto completo para realização dos playtests.
 
