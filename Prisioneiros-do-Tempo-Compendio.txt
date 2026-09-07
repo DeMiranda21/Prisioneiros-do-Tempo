@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 07/09/2026 22:19 UTC
-Commit: 7967c1f
+Gerado em: 07/09/2026 22:21 UTC
+Commit: 550a971
 Documentos encontrados: 8
 
 ================================================================================
@@ -59,7 +59,7 @@ Documentos encontrados: 8
 - 04 - Lore.md
 - 05 - Backlog.md
 - 06 - Materiais e Peças.md
-- 07 - Contexto para IA.md
+- 07 - Contexto para IA - Design de Figuras 3D.md
 - README.md
 
 ================================================================================
@@ -1749,7 +1749,7 @@ Isso é uma recomendação para o protótipo, não uma especificação definitiv
 
 
 ================================================================================
-ARQUIVO: 07 - Contexto para IA.md
+ARQUIVO: 07 - Contexto para IA - Design de Figuras 3D.md
 ================================================================================
 
 # CONTEXTO — PRISIONEIROS DO TEMPO
