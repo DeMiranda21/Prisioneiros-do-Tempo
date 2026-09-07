@@ -8,6 +8,8 @@ Documento de referência para os componentes físicos do jogo e para os materiai
 
 O jogo utiliza um tabuleiro de batalha com **8 × 8 casas**.
 
+Vídeo com Exemplo: https://www.youtube.com/watch?v=ptpYr90_IN0
+
 ### Dimensões físicas
 
 **Ainda não definidas na documentação oficial.**
