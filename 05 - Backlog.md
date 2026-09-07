@@ -181,9 +181,9 @@ Miniaturas:
 
 ## 5.3 Outros Componentes
 
-- [ ] Produzir marcadores provisórios necessários.
+- [x] Produzir marcadores provisórios necessários.
 - [x] Produzir obstáculos provisórios.
-- [ ] Produzir Portais provisórios.
+- [x] Produzir Portais provisórios.
 - [ ] Montar conjunto completo para realização dos playtests.
 
 ---
