@@ -49,7 +49,11 @@ Também existem tokens de apoio para:
 - Fera Veloz
 - Fera Resistente
 
-## 3. Tokens de cenário e obstáculos
+## 3. Peças para os Obstáculos
+
+### Formato Playtest
+
+Tokens de cenário e obstáculos
 
 Para o playtest, os elementos de cenário são representados por **tokens circulares impressos**.
 
@@ -67,6 +71,8 @@ Outros elementos de cenário poderão ser adicionados posteriormente conforme a 
 
 ## 4. Portais da Convergência
 
+### Formato Playtest
+
 Os Portais são representados fisicamente por **dois tokens circulares**.
 
 **Diâmetro utilizado no protótipo:** 4,00 cm.
@@ -77,6 +83,8 @@ Não há inscrição textual nos tokens de Portal.
 
 ## 5. Confinamento Místico
 
+### Formato Playtest
+
 O Confinamento Místico é representado por um **anel circular vazado**.
 
 **Diâmetro externo utilizado no protótipo:** 4,00 cm.
@@ -86,6 +94,8 @@ O centro é vazado para que o marcador possa ser colocado sobre o token da peça
 Não há inscrição textual no anel.
 
 ## 6. Cartas
+
+### Formato Playtest
 
 As cartas de personagens, Condições da Convergência, mapas e regras estão sendo preparadas para o playtest em formato de carta de baralho.
 
