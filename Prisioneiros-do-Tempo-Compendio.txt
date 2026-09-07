@@ -45,8 +45,8 @@ FILOSOFIA DO PROJETO
 
 --------------------------------------------------------------------------------
 
-Gerado em: 07/09/2026 21:29 UTC
-Commit: 0d19a9f
+Gerado em: 07/09/2026 21:45 UTC
+Commit: c92e6ba
 Documentos encontrados: 7
 
 ================================================================================
@@ -1593,6 +1593,8 @@ Documento de referência para os componentes físicos do jogo e para os materiai
 ## 1. Tabuleiro
 
 O jogo utiliza um tabuleiro de batalha com **8 × 8 casas**.
+
+Vídeo com Exemplo: https://www.youtube.com/watch?v=ptpYr90_IN0
 
 ### Dimensões físicas
 
