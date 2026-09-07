@@ -18,13 +18,13 @@ Registro deixado pelo Condutor [trecho desgastado/ilegível]
 
 Selecione 5 Prisioneiros para conduzir.
 
-Sorteie o Mapa, a Condição da Convergência e quem vai iniciar usando dados. Cada jogador
+Sorteie o Mapa, a Condição da Convergência e quem vai iniciar. Cada condutor
 posiciona suas peças alternadamente na Zona Inicial. Quem posicionar primeiro inicia o primeiro
 turno.
 
 Em seu turno, você pode mover uma peça e realizar uma ação — Ataque ou Habilidade. Após uma ação, a
 peça não pode mais se mover. As peças movem-se e atacam horizontal ou verticalmente. Elas atacam em
-linha reta até seu valor de Alcance. As peças não podem atravessar, ocupar o espaço ou atacar
+linha reta até seu Alcance. As peças não podem atravessar, ocupar o espaço ou atacar
 através de outra peça ou obstáculo.
 
 Quando uma peça é atacada, ela perde Vida igual ao valor de Ataque da peça atacante. Quando uma peça
