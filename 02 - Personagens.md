@@ -85,8 +85,7 @@ Cada peça atravessada sofre **2 de dano**.
 ### Habilidades
 
 #### Olho Longo *(Ação Especial)* 
-- Realiza um ataque com **alcance ilimitado**, em linha reta (inclusive diagonalmente).
-Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
+- Realiza um ataque com **alcance ilimitado**, em linha reta (inclusive diagonalmente). Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 
 #### Travessia *(Passiva)* 
 - Pode mover-se e atacar na diagonal.
@@ -94,7 +93,7 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 #### Mira Cuidadosa *(Passiva)* 
 - Se não se moveu desde o turno anterior, seu ataque normal causa **+1 de dano**.
 
-## - Guerreiro Tupi
+## Guerreiro Tupi
 
 ### Atributos
 
@@ -151,9 +150,9 @@ Esse ataque causa **1 de dano** e **não pode atravessar outras peças**.
 
 ### Habilidades
 
-#### Reincarnação *(Ação Especial)* - Escolha um aliado derrotado. Ele retorna para o jogo como um
-esquilo. Ele aparece na zona inicial. Somente um esquilo ativo por jogo.
-Esquilo: (2 vida, 3 mov, 1 atq, 1 alc) - Passiva: Ágil - Pode se mover sobre obstáculos e casas ocupadas por outras figuras.
+#### Reincarnação *(Ação Especial)* 
+- Escolha um aliado derrotado. Ele retorna para o jogo como um esquilo. Ele aparece na zona inicial. Somente um esquilo ativo por jogo.
+_Esquilo:_ (2 vida 2, 3 mov. 3, 1 atq, 1 alc) - Passiva: Ágil - Pode se mover sobre obstáculos e casas ocupadas por outras figuras.
 
 #### Cipós  *(Ação Especial)* 
 Escolha uma peça inimiga dentro do alcance. Mova-a até duas casas adjacentes livres, em linhas retas ou na diagonal.
