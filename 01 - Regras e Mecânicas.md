@@ -117,13 +117,13 @@ Caso essa peça seja posteriormente ressuscitada, esse ponto é perdido.
 ---
 
 ## Condições da Convergência
-- 01. Segunda Chance - A primeira peça eliminada na partida retorna imediatamente à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
+- 01. Segunda Chance - A primeira peça eliminada de cada jogador retorna à Zona Inicial com 1 ponto de Vida. Essa eliminação não concede ponto. Habilidades de uso único já utilizadas não são restauradas.
 - 02. Convergência - Antes do início da partida um personagem de cada time é selecionad aleatoriamente. Após a primeira eliminação da partida, as peças marcadas trocarão imediatamente de posição. Caso uma delas tenha sido eliminada, nada acontece.
 - 03. Portais da Convergência - Antes do início da partida, cada jogador escolhe secretamente uma casa livre do tabuleiro. Os jogadores revelam suas escolhas simultaneamente. Essas casas tornam-se os Portais da Convergência. Uma peça que terminar seu movimento sobre um Portal pode optar por ser transportada para o outro Portal. O transporte é opcional. Se o Portal de destino estiver ocupado, ele não poderá ser utilizado. A cada eliminação, os jogadores reposicionam os Portais, seguindo as mesmas regras utilizadas no início da partida.
 - 04. Pressão Constante - Nenhum jogador pode encerrar seu turno sem realizar uma ação, se houver uma ação legal disponível.
 - 05. Caçada - O primeiro jogador a eliminar um personagem recebe 2 pontos em vez de 1.
 - 06. Heróis da Convergência - No início da partida, cada jogador escolhe uma peça do seu time. Enquanto permanecer viva, essa peça concede 2 pontos ao eliminar um inimigo. Quando for eliminada, concede 2 pontos ao adversário.
-- 07. Última Esperança - Quando um jogador perder sua terceira peça, escolha um aliado sobrevivente. Ele recupera toda a Vida.
+- 07. Última Esperança - O primeiro jogador a perder a sua terceira peça escolhe um aliado sobrevivente. Essa peça recupera toda a vida.
 - 08. Exércitos Espalhados - Cada jogador deve posicionar pelo menos uma peça no lado inimigo da Zona Inicial.
 - 09. O traidor - No início da partida, cada jogador escolhe secretamente uma peça inimiga. Após a primeira eliminação da partida, revelem as escolhas. As peças escolhidas passam imediatamente para o controle do adversário.
 - 10. Forças Reservas - No início da partida, cada jogador posiciona apenas três peças. Sempre que uma peça aliada for eliminada, uma das peças restantes entra em jogo em qualquer casa livre da Zona Inicial.
